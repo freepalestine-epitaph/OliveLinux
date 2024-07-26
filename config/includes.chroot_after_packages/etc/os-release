@@ -1,0 +1,7 @@
+PRETTY_NAME="Debian GNU/Linux trixie/sid"
+NAME="Olive Linux"
+VERSION_CODENAME=trixie
+ID=olive
+HOME_URL="https://www.debian.org/"
+SUPPORT_URL="https://www.debian.org/support"
+BUG_REPORT_URL="https://bugs.debian.org/"

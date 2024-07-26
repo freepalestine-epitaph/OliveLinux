@@ -1,0 +1,13 @@
+{
+    "KPlugin": {
+        "Name": "Emerald",
+        "Id": "Emerald",
+        "License": "GPLv2+",
+        "Authors": [
+            {
+                "Name": "Juliet Taka",
+                "Email": "juliettetaka.belin@gmail.com"
+            }
+        ]
+    }
+}

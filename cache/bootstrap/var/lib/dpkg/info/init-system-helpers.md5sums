@@ -1,0 +1,15 @@
+ae8ec5d70538f261ace74af7f77ae197  usr/bin/deb-systemd-helper
+f7e298d80524581e3d95865f579ec2ab  usr/bin/deb-systemd-invoke
+bac9813321d45e1cb5837419abe71169  usr/sbin/invoke-rc.d
+b98ad1313d0cb2dc16a2543e5016b8e3  usr/sbin/service
+eae14a66b31a0b1adaaab3a2c3bf728e  usr/sbin/update-rc.d
+c52c0f837f72458df77a99bca36cd855  usr/share/bug/init-system-helpers/control
+13e439f057391f73cb6b0ebf9e5f6057  usr/share/doc/init-system-helpers/README.invoke-rc.d.gz
+479a804b338bd3813e8e104eee21cecb  usr/share/doc/init-system-helpers/README.policy-rc.d.gz
+a1811ef981e91f8000f52af02ebff744  usr/share/doc/init-system-helpers/changelog.gz
+ee2b1830fcfead84d07bc060ec43e072  usr/share/doc/init-system-helpers/copyright
+46b664f9c466aa63272e7811c0d427c7  usr/share/man/man1/deb-systemd-helper.1p.gz
+3bb995e8d512d659d9ff86d4b1d59ff8  usr/share/man/man1/deb-systemd-invoke.1p.gz
+b93e6556403f1b5c5115cb7f45f1a393  usr/share/man/man8/invoke-rc.d.8.gz
+997fde0eec123ebcef25c5b024d05384  usr/share/man/man8/service.8.gz
+58f53b94a42dc7111f562e1244169d30  usr/share/man/man8/update-rc.d.8.gz

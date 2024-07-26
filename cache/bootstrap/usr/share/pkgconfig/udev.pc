@@ -1,0 +1,6 @@
+Name: udev
+Description: udev
+Version: 247
+
+udev_dir=/lib/udev
+udevdir=${udev_dir}

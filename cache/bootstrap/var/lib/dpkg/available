@@ -1,0 +1,3355 @@
+Package: libacl1
+Source: acl
+Version: 2.2.53-10
+Installed-Size: 71
+Maintainer: Guillem Jover <guillem@debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.14)
+Description: access control list - shared library
+Multi-Arch: same
+Homepage: https://savannah.nongnu.org/projects/acl/
+Description-md5: 819a4a0833dcbd5db23e4a5fd341c3aa
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/a/acl/libacl1_2.2.53-10_amd64.deb
+Size: 31140
+MD5sum: 088fd1b3ffe5854bb9dc8d9e8d898d65
+SHA256: aa18d721be8aea50fbdb32cd9a319cb18a3f111ea6ad17399aa4ba9324c8e26a
+
+Package: adduser
+Version: 3.118+deb11u1
+Installed-Size: 849
+Maintainer: Debian Adduser Developers <adduser@packages.debian.org>
+Architecture: all
+Depends: passwd, debconf (>= 0.5) | debconf-2.0
+Suggests: liblocale-gettext-perl, perl
+Description: add and remove users and groups
+Multi-Arch: foreign
+Description-md5: 0e61515c925d932d3824e3dc6af2842b
+Tag: admin::user-management, implemented-in::perl, interface::commandline,
+ role::program, scope::utility, suite::debian
+Section: admin
+Priority: important
+Filename: pool/main/a/adduser/adduser_3.118+deb11u1_all.deb
+Size: 240736
+MD5sum: 3f4a7deb357d8b65a6b0a65bfdb0af4b
+SHA256: 1478a610fd50e190882ff41e16c57b628a508bcf5b5ac5313affb49d20818e0a
+
+Package: libapparmor1
+Source: apparmor
+Version: 2.13.6-10
+Installed-Size: 162
+Maintainer: Debian AppArmor Team <pkg-apparmor-team@lists.alioth.debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.17)
+Description: changehat AppArmor library
+Multi-Arch: same
+Homepage: https://apparmor.net/
+Description-md5: f5c1acf1bc73c3aa32ae8c2037c1d85a
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/a/apparmor/libapparmor1_2.13.6-10_amd64.deb
+Size: 99308
+MD5sum: 781f37ddb3174e15062b622aea93945e
+SHA256: cf1d8b38c399259f59185a52b2bc9dceb7d4ef9ae5b44445189e1d1c5d758563
+
+Package: apt
+Version: 2.2.4
+Installed-Size: 4337
+Maintainer: APT Development Team <deity@lists.debian.org>
+Architecture: amd64
+Replaces: apt-transport-https (<< 1.5~alpha4~), apt-utils (<< 1.3~exp2~)
+Provides: apt-transport-https (= 2.2.4)
+Depends: adduser, gpgv | gpgv2 | gpgv1, libapt-pkg6.0 (>= 2.2.4), debian-archive-keyring, libc6 (>= 2.15), libgcc-s1 (>= 3.0), libgnutls30 (>= 3.7.0), libseccomp2 (>= 2.4.2), libstdc++6 (>= 9), libsystemd0
+Recommends: ca-certificates
+Suggests: apt-doc, aptitude | synaptic | wajig, dpkg-dev (>= 1.17.2), gnupg | gnupg2 | gnupg1, powermgmt-base
+Breaks: apt-transport-https (<< 1.5~alpha4~), apt-utils (<< 1.3~exp2~), aptitude (<< 0.8.10)
+Description: commandline package manager
+Description-md5: 9fb97a88cb7383934ef963352b53b4a7
+Tag: admin::package-management, devel::lang:ruby, hardware::storage,
+ hardware::storage:cd, implemented-in::c++, implemented-in::perl,
+ implemented-in::ruby, interface::commandline, network::client,
+ protocol::ftp, protocol::http, protocol::ipv6, role::program,
+ scope::application, scope::utility, suite::debian, use::downloading,
+ use::organizing, use::playing, use::searching, works-with-format::html,
+ works-with::audio, works-with::software:package, works-with::text
+Section: admin
+Priority: required
+Filename: pool/main/a/apt/apt_2.2.4_amd64.deb
+Size: 1491328
+MD5sum: 24d53e8dd75095640a167f40476c0442
+SHA256: 75f07c4965ff0813f26623a1164e162538f5e94defba6961347527ed71bc4f3d
+
+Package: apt-utils
+Source: apt
+Version: 2.2.4
+Installed-Size: 1164
+Maintainer: APT Development Team <deity@lists.debian.org>
+Architecture: amd64
+Depends: apt (= 2.2.4), libapt-pkg6.0 (>= 1.9.11~), libc6 (>= 2.14), libdb5.3, libgcc-s1 (>= 3.0), libstdc++6 (>= 9)
+Description: package management related utility programs
+Description-md5: fa0295dc4e40dbbea6c84f614c570636
+Tag: admin::automation, admin::package-management, devel::debian,
+ hardware::storage, implemented-in::c++, interface::commandline,
+ role::program, scope::utility, suite::debian, use::configuring,
+ use::organizing, use::storing, works-with::software:package
+Section: admin
+Priority: important
+Filename: pool/main/a/apt/apt-utils_2.2.4_amd64.deb
+Size: 439128
+MD5sum: 5126caae518867b86d8afb6c9bf69897
+SHA256: 0ad8eca1eb7aa1437a9e11216ec4bc43f4fdfd7da87ae9052296d32b5b18315b
+
+Package: libapt-pkg6.0
+Source: apt
+Version: 2.2.4
+Installed-Size: 3373
+Maintainer: APT Development Team <deity@lists.debian.org>
+Architecture: amd64
+Provides: libapt-pkg (= 2.2.4)
+Depends: libbz2-1.0, libc6 (>= 2.27), libgcc-s1 (>= 3.0), libgcrypt20 (>= 1.8.0), liblz4-1 (>= 0.0~r127), liblzma5 (>= 5.1.1alpha+20120614), libstdc++6 (>= 9), libsystemd0 (>= 221), libudev1 (>= 183), libxxhash0 (>= 0.7.1), libzstd1 (>= 1.4.0), zlib1g (>= 1:1.2.2.3)
+Recommends: apt (>= 2.2.4)
+Breaks: appstream (<< 0.9.0-3~), apt (<< 1.6~), aptitude (<< 0.8.9), libapt-inst1.5 (<< 0.9.9~)
+Description: package management runtime library
+Multi-Arch: same
+Description-md5: eaacd63db236f47bdcc19e3bea7026a7
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/a/apt/libapt-pkg6.0_2.2.4_amd64.deb
+Size: 1012792
+MD5sum: b54364a07d3dd3fb4c59795dbe559169
+SHA256: 4ae47bedf773ad1342e5aae8fa6275f864cfc87a45f4472775f5a9cdd60abbbf
+
+Package: libargon2-1
+Source: argon2
+Version: 0~20171227-0.2
+Installed-Size: 57
+Maintainer: Luca Bruno <lucab@debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.14)
+Description: memory-hard hashing function - runtime library
+Multi-Arch: same
+Homepage: https://github.com/P-H-C/phc-winner-argon2
+Description-md5: ba6f90a8ea69fe69c76dcab5eb045ea6
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/a/argon2/libargon2-1_0~20171227-0.2_amd64.deb
+Size: 19640
+MD5sum: 76765e91db075f8a1c3e9a2907a5bd47
+SHA256: 0d2be32c122d26bbd9b604fbe0072265e4978e07b0e1b7149ba364ba3cc5a302
+
+Package: libattr1
+Source: attr
+Version: 1:2.4.48-6
+Installed-Size: 56
+Maintainer: Guillem Jover <guillem@debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.4)
+Description: extended attribute handling - shared library
+Multi-Arch: same
+Homepage: https://savannah.nongnu.org/projects/attr/
+Description-md5: d4aef101ff5430158eae72e808000f6c
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/a/attr/libattr1_2.4.48-6_amd64.deb
+Size: 21632
+MD5sum: ba4ba3c6ffa61b8cbb67f49c82ed2bfe
+SHA256: af3c3562eb2802481a2b9558df1b389f3c6d9b1bf3b4219e000e05131372ebaf
+
+Package: libaudit-common
+Source: audit
+Version: 1:3.0-2
+Installed-Size: 26
+Maintainer: Laurent Bigonville <bigon@debian.org>
+Architecture: all
+Description: Dynamic library for security auditing - common files
+Multi-Arch: foreign
+Homepage: https://people.redhat.com/sgrubb/audit/
+Description-md5: f1e698fe58902299a06c8f79f079ac9a
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/a/audit/libaudit-common_3.0-2_all.deb
+Size: 14832
+MD5sum: 8eff8cbc99166c1f6ce3b0764807f07d
+SHA256: 0d52f4826a57aea13cea1a85bfae354024c7b2f7b95e39cd1ce225e4db27d0f6
+
+Package: libaudit1
+Source: audit
+Version: 1:3.0-2
+Installed-Size: 154
+Maintainer: Laurent Bigonville <bigon@debian.org>
+Architecture: amd64
+Depends: libaudit-common (>= 1:3.0-2), libc6 (>= 2.14), libcap-ng0 (>= 0.7.9)
+Description: Dynamic library for security auditing
+Multi-Arch: same
+Homepage: https://people.redhat.com/sgrubb/audit/
+Description-md5: ec521af3cbcca51c5a26a117f114a9b5
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/a/audit/libaudit1_3.0-2_amd64.deb
+Size: 50380
+MD5sum: 02c1038999e1c692ef83a57a2ae5614b
+SHA256: e3aa1383e387dc077a1176f7f3cbfdbc084bcc270a8938f598d5cb119773b268
+
+Package: base-files
+Version: 11.1+deb11u10
+Essential: yes
+Installed-Size: 341
+Maintainer: Santiago Vila <sanvila@debian.org>
+Architecture: amd64
+Replaces: base, dpkg (<= 1.15.0), miscutils
+Provides: base
+Pre-Depends: awk
+Breaks: debian-security-support (<< 2019.04.25), initscripts (<< 2.88dsf-13.3), sendfile (<< 2.1b.20080616-5.2~)
+Description: Debian base system miscellaneous files
+Multi-Arch: foreign
+Description-md5: 6d16337f57b84c4747f56438355b2395
+Tag: admin::configuring, admin::install, admin::login, role::app-data,
+ suite::debian
+Section: admin
+Priority: required
+Filename: pool/main/b/base-files/base-files_11.1+deb11u10_amd64.deb
+Size: 70184
+MD5sum: f6f3493c9d241ecfb247277d8c4b10b0
+SHA256: c0c8bcfab879c55f092ec1b1e512f7d5361b46aa8e31fd3e9d9f092109392902
+
+Package: base-passwd
+Version: 3.5.51
+Essential: yes
+Installed-Size: 243
+Maintainer: Colin Watson <cjwatson@debian.org>
+Architecture: amd64
+Replaces: base
+Depends: libc6 (>= 2.8), libdebconfclient0 (>= 0.145)
+Recommends: debconf (>= 0.5) | debconf-2.0
+Description: Debian base system master password and group files
+Multi-Arch: foreign
+Description-md5: aad0cc52ee72b2469af5552851e49f03
+Tag: admin::configuring, admin::user-management, implemented-in::c,
+ interface::commandline, role::app-data, role::program, scope::utility,
+ security::authentication, suite::debian, use::login
+Section: admin
+Priority: required
+Filename: pool/main/b/base-passwd/base-passwd_3.5.51_amd64.deb
+Size: 58116
+MD5sum: ff5a23480b3e018b2c47526604a3e10c
+SHA256: 0c149206554a6f90db6b855eb0292b8e03acddd1ea2c16569cb3e3fbc98257ea
+
+Package: bash
+Version: 5.1-2+deb11u1
+Essential: yes
+Installed-Size: 6469
+Maintainer: Matthias Klose <doko@debian.org>
+Architecture: amd64
+Replaces: bash-completion (<< 20060301-0), bash-doc (<= 2.05-1)
+Depends: base-files (>= 2.1.12), debianutils (>= 2.15)
+Pre-Depends: libc6 (>= 2.25), libtinfo6 (>= 6)
+Recommends: bash-completion (>= 20060301-0)
+Suggests: bash-doc
+Conflicts: bash-completion (<< 20060301-0)
+Description: GNU Bourne Again SHell
+Multi-Arch: foreign
+Homepage: http://tiswww.case.edu/php/chet/bash/bashtop.html
+Description-md5: 3522aa7b4374048d6450e348a5bb45d9
+Tag: admin::TODO, devel::TODO, devel::interpreter, implemented-in::c,
+ interface::shell, interface::text-mode, role::program,
+ scope::application, suite::gnu, uitoolkit::ncurses
+Section: shells
+Priority: required
+Filename: pool/main/b/bash/bash_5.1-2+deb11u1_amd64.deb
+Size: 1416508
+MD5sum: 63a8cf18a82283bb5c3138a23bfda7a3
+SHA256: f702ef058e762d7208a9c83f6f6bbf02645533bfd615c54e8cdcce842cd57377
+
+Package: libdns-export1110
+Source: bind9-libs
+Version: 1:9.11.19+dfsg-2.1
+Installed-Size: 2482
+Maintainer: Debian DNS Team <team+dns@tracker.debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.14), libisc-export1105, libssl1.1 (>= 1.1.1)
+Description: Exported DNS Shared Library
+Homepage: https://www.isc.org/downloads/bind/
+Description-md5: 52d527bf4a46771b661269a614c3c1eb
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/b/bind9-libs/libdns-export1110_9.11.19+dfsg-2.1_amd64.deb
+Size: 987760
+MD5sum: 591dfe22dd2685da4c9a7d6b9077be8c
+SHA256: f7f7572d5b57cba0493a28b4d0cd068c1365c86557615c6c3d0c5d91255e6e6f
+
+Package: libisc-export1105
+Source: bind9-libs
+Version: 1:9.11.19+dfsg-2.1
+Installed-Size: 710
+Maintainer: Debian DNS Team <team+dns@tracker.debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.28), libssl1.1 (>= 1.1.0)
+Description: Exported ISC Shared Library
+Multi-Arch: same
+Homepage: https://www.isc.org/downloads/bind/
+Description-md5: cd6e16cd398bc2214c99d8500959c204
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/b/bind9-libs/libisc-export1105_9.11.19+dfsg-2.1_amd64.deb
+Size: 396836
+MD5sum: a87284305b7a25ab5c52a8d237e43dd5
+SHA256: 13016f4f7bcfaf640fd5b008e8cdef48ef6da63117098e303b9f855d723a2c36
+
+Package: libbz2-1.0
+Source: bzip2
+Version: 1.0.8-4
+Installed-Size: 104
+Maintainer: Anibal Monsalve Salazar <anibal@debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.4)
+Description: high-quality block-sorting file compressor library - runtime
+Multi-Arch: same
+Homepage: https://sourceware.org/bzip2/
+Description-md5: 88cb63f2e4d8cedcf07307314fc3c3d3
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/b/bzip2/libbz2-1.0_1.0.8-4_amd64.deb
+Size: 45808
+MD5sum: 03cef43b2b631e5c050c189ec766e077
+SHA256: 16e27c3ebd97981e70db3733f899963362748f178a62644df69d1f247e741379
+
+Package: libdebconfclient0
+Source: cdebconf
+Version: 0.260
+Installed-Size: 74
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.4)
+Description: Debian Configuration Management System (C-implementation library)
+Multi-Arch: same
+Description-md5: b6846d950dc3d5d61a275932cc66b18d
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/c/cdebconf/libdebconfclient0_0.260_amd64.deb
+Size: 50588
+MD5sum: decb7dfbd154c674054e846623b92226
+SHA256: ec17226299124a10fba4a3de666ca9050a4555a25fb30e9af9bcb234b6fbdfbe
+
+Package: coreutils
+Source: coreutils (8.32-4)
+Version: 8.32-4+b1
+Essential: yes
+Installed-Size: 17478
+Maintainer: Michael Stone <mstone@debian.org>
+Architecture: amd64
+Pre-Depends: libacl1 (>= 2.2.23), libattr1 (>= 1:2.4.44), libc6 (>= 2.28), libgmp10, libselinux1 (>= 3.1~)
+Description: GNU core utilities
+Multi-Arch: foreign
+Homepage: http://gnu.org/software/coreutils
+Description-md5: d0d975dec3625409d24be1238cede238
+Tag: admin::configuring, implemented-in::c, interface::commandline,
+ role::program, scope::utility, suite::gnu, works-with::file
+Section: utils
+Priority: required
+Filename: pool/main/c/coreutils/coreutils_8.32-4+b1_amd64.deb
+Size: 2866720
+MD5sum: c4c2510ccf8e77a536e3a5d55f13e07b
+SHA256: 3558a412ab51eee4b60641327cb145bb91415f127769823b68f9335585b308d4
+
+Package: cpio
+Version: 2.13+dfsg-7.1~deb11u1
+Installed-Size: 1141
+Maintainer: Anibal Monsalve Salazar <anibal@debian.org>
+Architecture: amd64
+Replaces: cpio-mt
+Depends: libc6 (>= 2.17)
+Suggests: libarchive-dev
+Conflicts: cpio-mt, mt-st (<< 0.6)
+Description: GNU cpio -- a program to manage archives of files
+Multi-Arch: foreign
+Homepage: https://www.gnu.org/software/cpio/
+Description-md5: 5f492bf139a41f29fd2d6fcadf43606e
+Tag: hardware::storage, implemented-in::c, interface::commandline,
+ role::program, scope::utility, suite::gnu, use::storing,
+ works-with-format::tar, works-with::archive
+Section: utils
+Priority: important
+Filename: pool/main/c/cpio/cpio_2.13+dfsg-7.1~deb11u1_amd64.deb
+Size: 244864
+MD5sum: fa2991d2e95e39008e6a713f46386be5
+SHA256: 20e99248f16d78b52095f29f60e203cbff26871411788e22a5ff4c934e79ab40
+
+Package: cron
+Version: 3.0pl1-137
+Installed-Size: 263
+Maintainer: Javier Fernández-Sanguino Peña <jfs@debian.org>
+Architecture: amd64
+Provides: cron-daemon
+Depends: libc6 (>= 2.7), libpam0g (>= 0.99.7.1), libselinux1 (>= 3.1~), debianutils (>= 1.7), sensible-utils, adduser, lsb-base (>= 3.0-10), libpam-runtime (>= 1.0.1-11)
+Pre-Depends: init-system-helpers (>= 1.54~)
+Recommends: default-mta | mail-transport-agent
+Suggests: anacron (>= 2.0-1), logrotate, checksecurity
+Description: process scheduling daemon
+Multi-Arch: foreign
+Homepage: https://ftp.isc.org/isc/cron/
+Description-md5: 7384e614068d48b9ac2335cb05added3
+Tag: admin::automation, implemented-in::c, interface::daemon, role::program,
+ scope::utility
+Section: admin
+Priority: important
+Filename: pool/main/c/cron/cron_3.0pl1-137_amd64.deb
+Size: 99592
+MD5sum: f9060334a10f4e2b946c4802942a2319
+SHA256: 7e52ed6805d6296764574c6a3ec20ff9d96ae20d4b62befae25f034b78b32e09
+
+Package: libcryptsetup12
+Source: cryptsetup
+Version: 2:2.3.7-1+deb11u1
+Installed-Size: 565
+Maintainer: Debian Cryptsetup Team <pkg-cryptsetup-devel@alioth-lists.debian.net>
+Architecture: amd64
+Depends: libargon2-1 (>= 0~20171227), libblkid1 (>= 2.24.2), libc6 (>= 2.25), libdevmapper1.02.1 (>= 2:1.02.97), libjson-c5 (>= 0.15), libssl1.1 (>= 1.1.0), libuuid1 (>= 2.16)
+Description: disk encryption support - shared library
+Multi-Arch: same
+Homepage: https://gitlab.com/cryptsetup/cryptsetup
+Description-md5: 4d51c661b0adee027561376db6e58853
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/c/cryptsetup/libcryptsetup12_2.3.7-1+deb11u1_amd64.deb
+Size: 248428
+MD5sum: 5dcd6233abca7f3a1477a3bde408ce89
+SHA256: f002372b5329a2d3b3fa79f0506f48a5ddd52168fa6e7466c4638f7d9ccdf45c
+
+Package: dash
+Version: 0.5.11+git20200708+dd9ef66-5
+Essential: yes
+Installed-Size: 221
+Maintainer: Andrej Shadura <andrewsh@debian.org>
+Architecture: amd64
+Depends: debianutils (>= 2.15), dpkg (>= 1.19.1), debconf (>= 0.5) | debconf-2.0
+Pre-Depends: libc6 (>= 2.14)
+Description: POSIX-compliant shell
+Multi-Arch: foreign
+Homepage: http://gondor.apana.org.au/~herbert/dash/
+Description-md5: 8d4d9c32c6b2b70328f7f774a0cc1248
+Tag: implemented-in::c, interface::shell, role::program, scope::utility
+Section: shells
+Priority: required
+Filename: pool/main/d/dash/dash_0.5.11+git20200708+dd9ef66-5_amd64.deb
+Size: 115376
+MD5sum: eedf35c8310756ff10b2301f85853254
+SHA256: 0a4cc532fbf2c78cb4090a659fb73560981e626849532e6186f3a3ac6a45b3bc
+
+Package: libdb5.3
+Source: db5.3
+Version: 5.3.28+dfsg1-0.8
+Installed-Size: 1818
+Maintainer: Debian Berkeley DB Team <team+bdb@tracker.debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.17)
+Description: Berkeley v5.3 Database Libraries [runtime]
+Multi-Arch: same
+Homepage: http://www.oracle.com/technetwork/database/database-technologies/berkeleydb/overview/index.html
+Description-md5: 6cef0d1fc062f09a5c2c1209dc807be1
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/d/db5.3/libdb5.3_5.3.28+dfsg1-0.8_amd64.deb
+Size: 686508
+MD5sum: f9d6211312a256ea785424b881d145f5
+SHA256: 00b9e63e287f45300d4a4f59b6b88e25918443c932ae3e5845d5761ae193c530
+
+Package: debconf
+Version: 1.5.77
+Installed-Size: 517
+Maintainer: Debconf Developers <debconf-devel@lists.alioth.debian.org>
+Architecture: all
+Replaces: debconf-tiny
+Provides: debconf-2.0
+Pre-Depends: perl-base (>= 5.20.1-3~)
+Recommends: apt-utils (>= 0.5.1), debconf-i18n
+Suggests: debconf-doc, debconf-utils, whiptail | dialog, libterm-readline-gnu-perl, libgtk3-perl, libnet-ldap-perl, perl, debconf-kde-helper (>= 0.1+git20110702)
+Conflicts: apt (<< 0.3.12.1), cdebconf (<< 0.96), debconf-tiny, debconf-utils (<< 1.3.22), dialog (<< 0.9b-20020814-1), menu (<= 2.1.3-1), whiptail (<< 0.51.4-11), whiptail-utf8 (<= 0.50.17-13)
+Breaks: apt-listchanges (<< 3.14), ubiquity (<< 17.10.2), update-notifier-common (<< 3.187~)
+Description: Debian configuration management system
+Multi-Arch: foreign
+Description-md5: 85b82bf406dfc9a635114f44ab7fb66d
+Tag: admin::configuring, implemented-in::perl, interface::commandline,
+ interface::graphical, interface::text-mode, interface::x11,
+ role::program, scope::utility, suite::debian, uitoolkit::TODO,
+ uitoolkit::gtk, uitoolkit::ncurses, uitoolkit::qt, use::configuring,
+ x11::application
+Section: admin
+Priority: required
+Filename: pool/main/d/debconf/debconf_1.5.77_all.deb
+Size: 144080
+MD5sum: ba9e11acb3a7bcd4fa7b2e094a156060
+SHA256: d9ee4dff77aaad12674eed3ccefdcccd332424c9e2ac2ac00a37a1e06c84ab70
+
+Package: debconf-i18n
+Source: debconf
+Version: 1.5.77
+Installed-Size: 773
+Maintainer: Debconf Developers <debconf-devel@lists.alioth.debian.org>
+Architecture: all
+Replaces: debconf (<< 1.3.0), debconf-utils (<< 1.3.22)
+Depends: debconf (= 1.5.77), liblocale-gettext-perl, libtext-iconv-perl, libtext-wrapi18n-perl, libtext-charwidth-perl
+Conflicts: debconf-english, debconf-utils (<< 1.3.22)
+Description: full internationalization support for debconf
+Description-md5: 3f303f9083a6c63ddcfd70b4738cca54
+Tag: devel::i18n, made-of::man, role::app-data, role::documentation,
+ suite::debian
+Section: localization
+Priority: important
+Filename: pool/main/d/debconf/debconf-i18n_1.5.77_all.deb
+Size: 205868
+MD5sum: 8388aba629763575d36e5b306fdb8179
+SHA256: c7f3cacab4514637e1bf0cfd9a4f064c123ece663dc44dcf81f21a8014b5ec2a
+
+Package: debian-archive-keyring
+Version: 2021.1.1+deb11u1
+Installed-Size: 253
+Maintainer: Debian Release Team <packages@release.debian.org>
+Architecture: all
+Description: GnuPG archive keys of the Debian archive
+Multi-Arch: foreign
+Description-md5: 4ee78d6fd2292b9893b8eb4f5d5dd91d
+Tag: role::data, security::authentication, suite::debian
+Section: misc
+Priority: important
+Filename: pool/main/d/debian-archive-keyring/debian-archive-keyring_2021.1.1+deb11u1_all.deb
+Size: 109864
+MD5sum: 7c6608cf530b8e40e70aa197074c3fd7
+SHA256: 28ca7749ab7978f3c571732c3aa1c56e3ad1d5db3c915293763d4f6cb8fcce89
+
+Package: debianutils
+Version: 4.11.2
+Essential: yes
+Installed-Size: 230
+Maintainer: Clint Adams <clint@debian.org>
+Architecture: amd64
+Pre-Depends: libc6 (>= 2.15)
+Description: Miscellaneous utilities specific to Debian
+Multi-Arch: foreign
+Description-md5: ccafef5bb90a2453aecca96cbb772d23
+Tag: admin::configuring, devel::lang:perl, devel::library, implemented-in::c,
+ implemented-in::perl, interface::commandline, role::devel-lib,
+ role::program, scope::utility, suite::debian
+Section: utils
+Priority: required
+Filename: pool/main/d/debianutils/debianutils_4.11.2_amd64.deb
+Size: 101160
+MD5sum: 68d08b47a5d8a619487bf619dbe64553
+SHA256: 83d21669c5957e3eaee20096a7d8c596bd07f57f1e95dc74f192b3fb7bb2e6a9
+
+Package: diffutils
+Version: 1:3.7-5
+Essential: yes
+Installed-Size: 1598
+Maintainer: Santiago Vila <sanvila@debian.org>
+Architecture: amd64
+Replaces: diff
+Pre-Depends: libc6 (>= 2.17)
+Suggests: diffutils-doc, wdiff
+Description: File comparison utilities
+Homepage: https://www.gnu.org/software/diffutils/
+Description-md5: 5cf0bc18e36aa2957e62b309d6aa34f9
+Tag: devel::rcs, implemented-in::c, interface::commandline, role::program,
+ scope::utility, suite::gnu, use::comparing, use::editing,
+ use::synchronizing, works-with-format::diff,
+ works-with-format::plaintext, works-with::file,
+ works-with::software:source, works-with::text
+Section: utils
+Priority: required
+Filename: pool/main/d/diffutils/diffutils_3.7-5_amd64.deb
+Size: 373248
+MD5sum: e461a157b44a67e19a933a16a720b4d5
+SHA256: 3928c253d4086e2ea0621c5b384d6f9cff4a58fd2c2f27467badccba2cd9875a
+
+Package: dmidecode
+Version: 3.3-2
+Installed-Size: 203
+Maintainer: Jörg Frings-Fürst <debian@jff.email>
+Architecture: amd64
+Depends: libc6 (>= 2.4)
+Description: SMBIOS/DMI table decoder
+Multi-Arch: foreign
+Homepage: https://nongnu.org/dmidecode/
+Description-md5: 266176aa2231f4b521210b81955e4d36
+Tag: admin::hardware, hardware::detection, interface::commandline,
+ role::program, scope::utility, use::viewing
+Section: utils
+Priority: important
+Filename: pool/main/d/dmidecode/dmidecode_3.3-2_amd64.deb
+Size: 64688
+MD5sum: ae38d3d30e6a6f935e6b40851d8ae7a9
+SHA256: 0a4c7396f3144974c9425765a237714bae97df2c663628f2097255cab491e620
+
+Package: dpkg
+Version: 1.20.13
+Essential: yes
+Installed-Size: 6982
+Maintainer: Dpkg Developers <debian-dpkg@lists.debian.org>
+Architecture: amd64
+Depends: tar (>= 1.28-1)
+Pre-Depends: libbz2-1.0, libc6 (>= 2.15), liblzma5 (>= 5.2.2), libselinux1 (>= 3.1~), zlib1g (>= 1:1.1.4)
+Suggests: apt, debsig-verify
+Breaks: libapt-pkg5.0 (<< 1.7~b), lsb-base (<< 10.2019031300)
+Description: Debian package management system
+Multi-Arch: foreign
+Homepage: https://wiki.debian.org/Teams/Dpkg
+Description-md5: 2f156c6a30cc39895ad3487111e8c190
+Tag: admin::package-management, devel::lang:perl, devel::library,
+ implemented-in::c, implemented-in::perl, interface::commandline,
+ role::devel-lib, role::program, scope::utility, suite::debian,
+ use::configuring, works-with::software:package
+Section: admin
+Priority: required
+Filename: pool/main/d/dpkg/dpkg_1.20.13_amd64.deb
+Size: 2537840
+MD5sum: 10007143cd34c2c16b54c888b3760083
+SHA256: eb2b7ba3a3c4e905a380045a2d1cd219d2d45755aba5966d6c804b79400beb05
+
+Package: e2fsprogs
+Version: 1.46.2-2
+Installed-Size: 1511
+Maintainer: Theodore Y. Ts'o <tytso@mit.edu>
+Architecture: amd64
+Depends: logsave
+Pre-Depends: libblkid1 (>= 2.36), libc6 (>= 2.14), libcom-err2 (>= 1.43.9), libext2fs2 (= 1.46.2-2), libss2 (>= 1.38), libuuid1 (>= 2.16)
+Recommends: e2fsprogs-l10n
+Suggests: gpart, parted, fuse2fs, e2fsck-static
+Description: ext2/ext3/ext4 file system utilities
+Multi-Arch: foreign
+Homepage: http://e2fsprogs.sourceforge.net
+Description-md5: 92d0fdf684262bbfa702eaea3f50b97e
+Important: yes
+Tag: admin::configuring, admin::filesystem, hardware::storage,
+ implemented-in::c, interface::commandline, role::program,
+ scope::utility, security::integrity, use::checking, use::configuring
+Section: admin
+Priority: required
+Filename: pool/main/e/e2fsprogs/e2fsprogs_1.46.2-2_amd64.deb
+Size: 614676
+MD5sum: 5918b8b616a78b669f84ed5b9b8b74b0
+SHA256: fcb8560938b8b10892d8654ad45c34a8d28432cba772bf44b4fbcf7823c6e5aa
+
+Package: libcom-err2
+Source: e2fsprogs
+Version: 1.46.2-2
+Installed-Size: 97
+Maintainer: Theodore Y. Ts'o <tytso@mit.edu>
+Architecture: amd64
+Replaces: libcomerr2 (<< 1.43.9-1~)
+Provides: libcomerr2 (= 1.46.2-2)
+Depends: libc6 (>= 2.17)
+Breaks: libcomerr2 (<< 1.43.9-1~)
+Description: common error description library
+Multi-Arch: same
+Homepage: http://e2fsprogs.sourceforge.net
+Description-md5: 5611f795c9947cfb9a2980a01506a1b9
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/e/e2fsprogs/libcom-err2_1.46.2-2_amd64.deb
+Size: 74208
+MD5sum: 99831a5e480718a841e22ebaf98b229a
+SHA256: d478f132871f4ab8352d39becf936d0ad74db905398bf98465d8fe3da6fb1126
+
+Package: libext2fs2
+Source: e2fsprogs
+Version: 1.46.2-2
+Installed-Size: 578
+Maintainer: Theodore Y. Ts'o <tytso@mit.edu>
+Architecture: amd64
+Replaces: e2fslibs (<< 1.43.9-1~)
+Provides: e2fslibs (= 1.46.2-2)
+Depends: libc6 (>= 2.28)
+Breaks: e2fslibs (<< 1.43.9-1~)
+Description: ext2/ext3/ext4 file system libraries
+Multi-Arch: same
+Homepage: http://e2fsprogs.sourceforge.net
+Description-md5: ba4f61a3e0b238831f03143cbdce696e
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/e/e2fsprogs/libext2fs2_1.46.2-2_amd64.deb
+Size: 256928
+MD5sum: a1bcde79a70ee82ef670f0f7642df471
+SHA256: 0c770a2175f138ed43518cd50bd733523393ec1faa736be65b69315be151f00b
+
+Package: libss2
+Source: e2fsprogs
+Version: 1.46.2-2
+Installed-Size: 113
+Maintainer: Theodore Y. Ts'o <tytso@mit.edu>
+Architecture: amd64
+Replaces: e2fsprogs (<< 1.34-1)
+Depends: libcom-err2, libc6 (>= 2.17)
+Description: command-line interface parsing library
+Multi-Arch: same
+Homepage: http://e2fsprogs.sourceforge.net
+Description-md5: d3d9f89af5755a413e24d2dc0cb7df81
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/e/e2fsprogs/libss2_1.46.2-2_amd64.deb
+Size: 78764
+MD5sum: fd8417948a915847729bc40b6cd3137b
+SHA256: 8da26252642f849249bd2f3c291b60aebdbbab1138c651aaeee8c356fe85d98f
+
+Package: logsave
+Source: e2fsprogs
+Version: 1.46.2-2
+Installed-Size: 93
+Maintainer: Theodore Y. Ts'o <tytso@mit.edu>
+Architecture: amd64
+Replaces: e2fsprogs (<< 1.45.3-1)
+Depends: libc6 (>= 2.14)
+Breaks: e2fsprogs (<< 1.45.3-1)
+Description: save the output of a command in a log file
+Multi-Arch: foreign
+Homepage: http://e2fsprogs.sourceforge.net
+Description-md5: 423ff285c4e5f41ac959b0fda6f812fe
+Section: admin
+Priority: optional
+Filename: pool/main/e/e2fsprogs/logsave_1.46.2-2_amd64.deb
+Size: 74904
+MD5sum: 3a765c553e192c859b34186a7b36aea6
+SHA256: da0e25baf56de101e876ee43cd57d3ceeb0cc4c8d11328ac83e789af52d17350
+
+Package: libelf1
+Source: elfutils
+Version: 0.183-1
+Installed-Size: 946
+Maintainer: Debian Elfutils Maintainers <debian-gcc@lists.debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.14), zlib1g (>= 1:1.1.4)
+Description: library to read and write ELF files
+Multi-Arch: same
+Homepage: https://sourceware.org/elfutils/
+Description-md5: 5188e87e91e6292255a5ccd72d2f25ed
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/e/elfutils/libelf1_0.183-1_amd64.deb
+Size: 165284
+MD5sum: 1cc578aeab4d1c333c89cf5fb234a279
+SHA256: e1ad132d502b255023c222d0cae1d02ca941f6b68fd0e9b908c6004cc326592c
+
+Package: findutils
+Version: 4.8.0-1
+Essential: yes
+Installed-Size: 1959
+Maintainer: Andreas Metzler <ametzler@debian.org>
+Architecture: amd64
+Pre-Depends: libc6 (>= 2.17), libselinux1 (>= 3.1~)
+Suggests: mlocate | locate
+Breaks: binstats (<< 1.08-8.1), guilt (<< 0.36-0.2), libpython3.4-minimal (<< 3.4.4-2), libpython3.5-minimal (<< 3.5.1-3), lsat (<< 0.9.7.1-2.1), mc (<< 3:4.8.11-1), switchconf (<< 0.0.9-2.1)
+Description: utilities for finding files--find, xargs
+Multi-Arch: foreign
+Homepage: https://savannah.gnu.org/projects/findutils/
+Description-md5: ad1a783819241ffdf3ff5f37a676af59
+Tag: implemented-in::c, interface::commandline, role::program,
+ scope::utility, suite::gnu, use::searching, works-with::file
+Section: utils
+Priority: required
+Filename: pool/main/f/findutils/findutils_4.8.0-1_amd64.deb
+Size: 697324
+MD5sum: 30bae249e0fc96316fb593069a06f3e4
+SHA256: 1c706f32ca93e04c2e38b6292491f645eda1e0d06a155c5678e22ca96d7b0da6
+
+Package: gcc-10-base
+Source: gcc-10
+Version: 10.2.1-6
+Installed-Size: 261
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Architecture: amd64
+Breaks: gnat (<< 7)
+Description: GCC, the GNU Compiler Collection (base package)
+Multi-Arch: same
+Homepage: http://gcc.gnu.org/
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Tag: role::shared-lib
+Section: libs
+Priority: required
+Filename: pool/main/g/gcc-10/gcc-10-base_10.2.1-6_amd64.deb
+Size: 201332
+MD5sum: 8ad775342ca4fd0adca5a516849b6498
+SHA256: be65535e94f95fbf04b104e8ab36790476f063374430f7dfc6c516cbe2d2cd1e
+
+Package: libgcc-s1
+Source: gcc-10
+Version: 10.2.1-6
+Installed-Size: 116
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Architecture: amd64
+Replaces: libgcc1 (<< 1:10)
+Provides: libgcc1 (= 1:10.2.1-6)
+Depends: gcc-10-base (= 10.2.1-6), libc6 (>= 2.14)
+Breaks: cryptsetup-initramfs (<< 2:2.2.2-3~)
+Description: GCC support library
+Multi-Arch: same
+Homepage: http://gcc.gnu.org/
+Description-md5: bbd60d723e97d8e06c04228ee4c76f10
+Important: yes
+Protected: yes
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/g/gcc-10/libgcc-s1_10.2.1-6_amd64.deb
+Size: 41400
+MD5sum: 662ac9938f503745221bd777b5a94cab
+SHA256: e478f2709d8474165bb664de42e16950c391f30eaa55bc9b3573281d83a29daf
+
+Package: libstdc++6
+Source: gcc-10
+Version: 10.2.1-6
+Installed-Size: 2351
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Architecture: amd64
+Replaces: libstdc++6-10-dbg (<< 4.9.0-3)
+Depends: gcc-10-base (= 10.2.1-6), libc6 (>= 2.23), libgcc-s1 (>= 4.2)
+Conflicts: scim (<< 1.4.2-1)
+Breaks: gcc-4.3 (<< 4.3.6-1), gcc-4.4 (<< 4.4.6-4), gcc-4.5 (<< 4.5.3-2)
+Description: GNU Standard C++ Library v3
+Multi-Arch: same
+Homepage: http://gcc.gnu.org/
+Description-md5: 724ab84919e0e220afb960e36463914d
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/g/gcc-10/libstdc++6_10.2.1-6_amd64.deb
+Size: 492540
+MD5sum: 7ed6e871b921f147bbf9e4ceb5905d09
+SHA256: 5c155c58935870bf3b4bfe769116841c0d286a74f59eccfd5645693ac23f06b1
+
+Package: gcc-9-base
+Source: gcc-9
+Version: 9.3.0-22
+Installed-Size: 262
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Architecture: amd64
+Breaks: gnat (<< 7)
+Description: GCC, the GNU Compiler Collection (base package)
+Multi-Arch: same
+Homepage: http://gcc.gnu.org/
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Tag: role::shared-lib
+Section: libs
+Priority: required
+Filename: pool/main/g/gcc-9/gcc-9-base_9.3.0-22_amd64.deb
+Size: 198312
+MD5sum: dfd443c03b35d699016c4e014fc0758a
+SHA256: 5a5e0a896ead8fa3db122953061171d4e717349e8f3d50466729d9916fdc09a5
+
+Package: libc-bin
+Source: glibc
+Version: 2.31-13+deb11u10
+Essential: yes
+Installed-Size: 3733
+Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
+Architecture: amd64
+Depends: libc6 (>> 2.31), libc6 (<< 2.32)
+Recommends: manpages
+Description: GNU C Library: Binaries
+Multi-Arch: foreign
+Homepage: https://www.gnu.org/software/libc/libc.html
+Description-md5: 7625903821514b57277d1bae69ec3c1a
+Tag: role::shared-lib
+Section: libs
+Priority: required
+Filename: pool/main/g/glibc/libc-bin_2.31-13+deb11u10_amd64.deb
+Size: 827000
+MD5sum: bd88bb447c71e73d601793d1dda9f1d8
+SHA256: 97b46cbab917965b2dcc1afaea1c26477e6c856e69ad29d0cb51dd0a198bfc1f
+
+Package: libc6
+Source: glibc
+Version: 2.31-13+deb11u10
+Installed-Size: 12834
+Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
+Architecture: amd64
+Replaces: libc6-amd64
+Depends: libgcc-s1, libcrypt1
+Recommends: libidn2-0 (>= 2.0.5~), libnss-nis, libnss-nisplus
+Suggests: glibc-doc, debconf | debconf-2.0, libc-l10n, locales
+Breaks: busybox (<< 1.30.1-6), hurd (<< 1:0.9.git20170910-1), ioquake3 (<< 1.36+u20200211.f2c61c1~dfsg-2~), iraf-fitsutil (<< 2018.07.06-4), libgegl-0.4-0 (<< 0.4.18), libtirpc1 (<< 0.2.3), locales (<< 2.31), locales-all (<< 2.31), macs (<< 2.2.7.1-3~), nocache (<< 1.1-1~), nscd (<< 2.31), openarena (<< 0.8.8+dfsg-4~), openssh-server (<< 1:8.1p1-5), r-cran-later (<< 0.7.5+dfsg-2), wcc (<< 0.0.2+dfsg-3)
+Description: GNU C Library: Shared libraries
+Multi-Arch: same
+Homepage: https://www.gnu.org/software/libc/libc.html
+Description-md5: fc3001b0b90a1c8e6690b283a619d57f
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/g/glibc/libc6_2.31-13+deb11u10_amd64.deb
+Size: 2824616
+MD5sum: 46552bd54f27eae9f8f9e45dcdb0ba15
+SHA256: 387b0ff08147f8bd9d83dfe9db0e4d39fef5f6d29700297acdd6a5711eb981a7
+
+Package: libgmp10
+Source: gmp
+Version: 2:6.2.1+dfsg-1+deb11u1
+Installed-Size: 863
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.14)
+Breaks: libmath-gmp-perl (<< 2.20-1), libmath-prime-util-gmp-perl (<< 0.51-2), postgresql-pgmp (<< 1.0.3-1)
+Description: Multiprecision arithmetic library
+Multi-Arch: same
+Homepage: http://gmplib.org/
+Description-md5: cf6b3a218331a8f680398794acac47a0
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/g/gmp/libgmp10_6.2.1+dfsg-1+deb11u1_amd64.deb
+Size: 563308
+MD5sum: a99eed88019739c02852ad7951b686f4
+SHA256: fc117ccb084a98d25021f7e01e4dfedd414fa2118fdd1e27d2d801d7248aebbc
+
+Package: gpgv
+Source: gnupg2
+Version: 2.2.27-2+deb11u2
+Installed-Size: 882
+Maintainer: Debian GnuPG Maintainers <pkg-gnupg-maint@lists.alioth.debian.org>
+Architecture: amd64
+Replaces: gnupg2 (<< 2.0.21-2), gpgv2 (<< 2.1.11-7+exp1)
+Depends: libbz2-1.0, libc6 (>= 2.25), libgcrypt20 (>= 1.8.0), libgpg-error0 (>= 1.38), zlib1g (>= 1:1.1.4)
+Suggests: gnupg
+Breaks: gnupg2 (<< 2.0.21-2), gpgv2 (<< 2.1.11-7+exp1), python-debian (<< 0.1.29)
+Description: GNU privacy guard - signature verification tool
+Multi-Arch: foreign
+Homepage: https://www.gnupg.org/
+Description-md5: 4ea8f4f4d6a0a387a4a3aeba3e6cc888
+Tag: implemented-in::c, interface::commandline, role::program,
+ scope::utility, security::cryptography, suite::gnu, use::checking
+Section: utils
+Priority: important
+Filename: pool/main/g/gnupg2/gpgv_2.2.27-2+deb11u2_amd64.deb
+Size: 625824
+MD5sum: 54d6bfca6d24510795a371f4d842ecb1
+SHA256: 52a3a5092d9723ff12dc9b3012b8b92dbbeb33d36286731a7ef0dd9e90e4fb9b
+
+Package: libgnutls30
+Source: gnutls28
+Version: 3.7.1-5+deb11u5
+Installed-Size: 3143
+Maintainer: Debian GnuTLS Maintainers <pkg-gnutls-maint@lists.alioth.debian.org>
+Architecture: amd64
+Depends: libgmp10 (>= 2:6.0.0), libc6 (>= 2.25), libhogweed6 (>= 3.6), libidn2-0 (>= 2.0.0), libnettle8 (>= 3.7~), libp11-kit0 (>= 0.23.18.1), libtasn1-6 (>= 4.14), libunistring2 (>= 0.9.7)
+Suggests: gnutls-bin
+Description: GNU TLS library - main runtime library
+Multi-Arch: same
+Homepage: https://www.gnutls.org/
+Description-md5: 62280ac2a597a21eda709c611a5c0008
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/g/gnutls28/libgnutls30_3.7.1-5+deb11u5_amd64.deb
+Size: 1340088
+MD5sum: f39b1086bb7a2f615a57deaa161e31d8
+SHA256: cdfacece6f69c9eeecd509c7c44e1d5b47e09ad5e48f732ae151ded1afce45b4
+
+Package: grep
+Version: 3.6-1+deb11u1
+Essential: yes
+Installed-Size: 1091
+Maintainer: Anibal Monsalve Salazar <anibal@debian.org>
+Architecture: amd64
+Provides: rgrep
+Depends: dpkg (>= 1.15.4) | install-info
+Pre-Depends: libc6 (>= 2.14), libpcre3
+Suggests: libpcre3 (>= 7.7)
+Conflicts: rgrep
+Description: GNU grep, egrep and fgrep
+Multi-Arch: foreign
+Homepage: https://www.gnu.org/software/grep/
+Description-md5: f9188c5583d41955f3b3fe60b9d445f1
+Tag: implemented-in::c, interface::commandline, role::program,
+ scope::utility, suite::gnu, use::filtering, use::searching,
+ works-with::file, works-with::text
+Section: utils
+Priority: required
+Filename: pool/main/g/grep/grep_3.6-1+deb11u1_amd64.deb
+Size: 398084
+MD5sum: 6f42ade22a074aa844cb940838c5a295
+SHA256: 47d46c9cde2354724fb2d1e8fa1fa5204fdd751e87eadada7ff351b6355ace52
+
+Package: gzip
+Version: 1.10-4+deb11u1
+Essential: yes
+Installed-Size: 242
+Maintainer: Milan Kupcevic <milan@debian.org>
+Architecture: amd64
+Depends: dpkg (>= 1.15.4) | install-info
+Pre-Depends: libc6 (>= 2.17)
+Suggests: less
+Description: GNU compression utilities
+Homepage: https://www.gnu.org/software/gzip/
+Description-md5: 100720c9e2c6508f1a1f3731537b38e5
+Tag: implemented-in::c, interface::commandline, role::program,
+ scope::utility, suite::gnu, use::compressing, works-with::archive,
+ works-with::file
+Section: utils
+Priority: required
+Filename: pool/main/g/gzip/gzip_1.10-4+deb11u1_amd64.deb
+Size: 131996
+MD5sum: 93c716af03bdd5bcb23c4517757b25e3
+SHA256: 34c4c773e2a7600ea3ed0bec0b6931ae5b7de5741bf260cacc55b1a2b92e008d
+
+Package: hostname
+Version: 3.23
+Essential: yes
+Installed-Size: 50
+Maintainer: Michael Meskes <meskes@debian.org>
+Architecture: amd64
+Replaces: nis (<< 3.17-30)
+Pre-Depends: libc6 (>= 2.4)
+Breaks: nis (<< 3.17-30)
+Description: utility to set/show the host name or domain name
+Description-md5: a5a22acc3c69a7f40f07f1a8dfc93af1
+Tag: implemented-in::c, interface::commandline, role::program,
+ scope::utility, use::configuring
+Section: admin
+Priority: required
+Filename: pool/main/h/hostname/hostname_3.23_amd64.deb
+Size: 14948
+MD5sum: 4addff073f92d20bd6745e9bd7e71e23
+SHA256: 3288cd76324fee7b1a34b97f6e6bcfc32a889f4f22002d0bd3788d8988eca791
+
+Package: ifupdown
+Version: 0.8.36
+Installed-Size: 217
+Maintainer: Josué Ortega <josue@debian.org>
+Architecture: amd64
+Replaces: systemd (<< 228-3~)
+Depends: libc6 (>= 2.14), lsb-base, adduser, iproute2
+Recommends: isc-dhcp-client | dhcp-client
+Suggests: ppp, rdnssd
+Breaks: systemd (<< 228-3~)
+Description: high level tools to configure network interfaces
+Multi-Arch: foreign
+Description-md5: 442edbd184a6e1febc9b203604eb38f4
+Tag: devel::lang:perl, devel::library, implemented-in::c,
+ implemented-in::perl, interface::commandline, network::configuration,
+ protocol::ipv6, role::devel-lib, role::program, scope::utility,
+ use::configuring
+Section: admin
+Priority: important
+Filename: pool/main/i/ifupdown/ifupdown_0.8.36_amd64.deb
+Size: 81964
+MD5sum: 7019c7902a2f3faa182814899b57532e
+SHA256: 301c937c664f76c9c61813a45ca02a7b1b31f27a7876715ea4e0136c382bfc98
+
+Package: init
+Source: init-system-helpers
+Version: 1.60
+Installed-Size: 22
+Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
+Architecture: amd64
+Depends: init-system-helpers (>= 1.25)
+Pre-Depends: systemd-sysv | sysvinit-core
+Description: metapackage ensuring an init system is installed
+Multi-Arch: foreign
+Description-md5: 12a082503782e774ffe62fa80de49eb6
+Important: yes
+Tag: admin::boot, role::metapackage
+Section: metapackages
+Priority: important
+Filename: pool/main/i/init-system-helpers/init_1.60_amd64.deb
+Size: 15256
+MD5sum: cdb0c0cfeccaf3054b3b384479b7cc5d
+SHA256: 1c25d055bc4b10ab1b24fc9d2d3f3e55d894f8158a0f9ff9d813d3281390ce13
+
+Package: init-system-helpers
+Version: 1.60
+Essential: yes
+Installed-Size: 131
+Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
+Architecture: all
+Depends: perl-base (>= 5.20.1-3)
+Conflicts: file-rc (<< 0.8.17~)
+Description: helper tools for all init systems
+Multi-Arch: foreign
+Description-md5: facafbf6c4b9fd95c34e95938629ecef
+Tag: admin::boot, implemented-in::perl, role::program
+Section: admin
+Priority: required
+Filename: pool/main/i/init-system-helpers/init-system-helpers_1.60_all.deb
+Size: 47076
+MD5sum: 783c018e8e00a85f0e4f9c33cf50fe58
+SHA256: 43420922c5e3aa747f8854236bf381a35179bba3885b242edb104751dad20644
+
+Package: iproute2
+Version: 5.10.0-4
+Installed-Size: 2867
+Maintainer: Alexander Wirt <formorer@debian.org>
+Architecture: amd64
+Replaces: iproute
+Provides: arpd
+Depends: debconf (>= 0.5) | debconf-2.0, libbpf0 (>= 1:0.2), libbsd0 (>= 0.0), libc6 (>= 2.29), libcap2 (>= 1:2.10), libdb5.3, libelf1 (>= 0.131), libmnl0 (>= 1.0.3-4~), libselinux1 (>= 3.1~), libxtables12 (>= 1.6.0+snapshot20161117), libcap2-bin
+Recommends: libatm1 (>= 2.4.1-17~)
+Suggests: iproute2-doc
+Conflicts: arpd, iproute (<< 20130000-1)
+Description: networking and traffic control tools
+Multi-Arch: foreign
+Homepage: https://wiki.linuxfoundation.org/networking/iproute2
+Description-md5: d10cc46ca4a9e5489b7d2c879fcfba17
+Tag: admin::configuring, implemented-in::c, interface::commandline,
+ network::configuration, role::program, scope::utility, use::routing,
+ works-with::network-traffic
+Section: net
+Priority: important
+Filename: pool/main/i/iproute2/iproute2_5.10.0-4_amd64.deb
+Size: 930168
+MD5sum: d5b1551516eab7d2f4248ca972ba251c
+SHA256: bad652452612c81b8cfdca1411a036a768f5fa3461a04d6662f1ee0807ea3791
+
+Package: libip4tc2
+Source: iptables
+Version: 1.8.7-1
+Installed-Size: 81
+Maintainer: Debian Netfilter Packaging Team <pkg-netfilter-team@lists.alioth.debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.28)
+Description: netfilter libip4tc library
+Multi-Arch: same
+Homepage: https://www.netfilter.org/
+Description-md5: 6cf8584710987c66eced830acf7ec565
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/i/iptables/libip4tc2_1.8.7-1_amd64.deb
+Size: 34640
+MD5sum: 1d40a2caba523e29e4f8ac54664f2873
+SHA256: 7adeb63d9a350794b8234082082608d1b81097f5b177a9d16c28b72584c4f527
+
+Package: libxtables12
+Source: iptables
+Version: 1.8.7-1
+Installed-Size: 111
+Maintainer: Debian Netfilter Packaging Team <pkg-netfilter-team@lists.alioth.debian.org>
+Architecture: amd64
+Replaces: iptables (<< 1.4.16.3-3), libxtables11 (>= 1.6.0+snapshot20161117-1)
+Depends: libc6 (>= 2.28)
+Breaks: iptables (<< 1.4.16.3-3), libxtables11 (>= 1.6.0+snapshot20161117-1)
+Description: netfilter xtables library
+Multi-Arch: same
+Homepage: https://www.netfilter.org/
+Description-md5: 63e15790bf391d02773381b5b6259745
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/i/iptables/libxtables12_1.8.7-1_amd64.deb
+Size: 45052
+MD5sum: 38fb2553ac0fadc0e7981937b463a0ed
+SHA256: 9702a4be6f267b58c8fc1cfa0747bbefccb8b9a9af2a3547535533fbf2a7c14d
+
+Package: iputils-ping
+Source: iputils
+Version: 3:20210202-1
+Installed-Size: 113
+Maintainer: Noah Meyerhans <noahm@debian.org>
+Architecture: amd64
+Provides: ping
+Depends: libcap2-bin, libc6 (>= 2.25), libcap2 (>= 1:2.10), libidn2-0 (>= 0.6)
+Description: Tools to test the reachability of network hosts
+Multi-Arch: foreign
+Homepage: https://github.com/iputils/iputils/
+Description-md5: d70a0a65fee86f2e5c78f759703e9922
+Tag: admin::monitoring, implemented-in::c, interface::commandline,
+ network::scanner, protocol::ipv6, role::program, scope::utility
+Section: net
+Priority: important
+Filename: pool/main/i/iputils/iputils-ping_20210202-1_amd64.deb
+Size: 49776
+MD5sum: 3b52ff7f46aa47eed2a18034af8be49e
+SHA256: 616ec3cb9f9610279c731bc3b9f8aee65c65f0d536fd284f502482497a6ef289
+
+Package: isc-dhcp-client
+Source: isc-dhcp
+Version: 4.4.1-2.3+deb11u2
+Installed-Size: 686
+Maintainer: Debian ISC DHCP Maintainers <isc-dhcp@packages.debian.org>
+Architecture: amd64
+Provides: dhcp-client
+Depends: libc6 (>= 2.15), libdns-export1110, libisc-export1105, debianutils (>= 2.8.2), iproute2
+Recommends: isc-dhcp-common
+Suggests: resolvconf, avahi-autoipd, isc-dhcp-client-ddns
+Description: DHCP client for automatically obtaining an IP address
+Homepage: http://www.isc.org
+Description-md5: 849016b34f878b96cbdf66cb6a0cc650
+Tag: implemented-in::c, interface::commandline, network::client,
+ network::configuration, protocol::dhcp, protocol::ip, role::program,
+ use::configuring
+Section: net
+Priority: important
+Filename: pool/main/i/isc-dhcp/isc-dhcp-client_4.4.1-2.3+deb11u2_amd64.deb
+Size: 342768
+MD5sum: ff9396e84c0fbe6c9daa5860fd763c02
+SHA256: ae718e5d2a17f3927b8826b720bf958dd20985b72c514377d36e70ec6c1f01ff
+
+Package: isc-dhcp-common
+Source: isc-dhcp
+Version: 4.4.1-2.3+deb11u2
+Installed-Size: 149
+Maintainer: Debian ISC DHCP Maintainers <isc-dhcp@packages.debian.org>
+Architecture: amd64
+Depends: debianutils (>= 2.8.2)
+Description: common manpages relevant to all of the isc-dhcp packages
+Homepage: http://www.isc.org
+Description-md5: 2790388f06e46625f3fdfcb787daeb31
+Tag: network::configuration, role::app-data, role::program
+Section: net
+Priority: important
+Filename: pool/main/i/isc-dhcp/isc-dhcp-common_4.4.1-2.3+deb11u2_amd64.deb
+Size: 144844
+MD5sum: 6d56c2bc8916215f421c00d8c4dcf4cb
+SHA256: db458838b9c6bbf9290ab9c4b69491448b7fd33f2432da8db7d350bb846634a4
+
+Package: libjansson4
+Source: jansson
+Version: 2.13.1-1.1
+Installed-Size: 99
+Maintainer: Alessandro Ghedini <ghedo@debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.14)
+Description: C library for encoding, decoding and manipulating JSON data
+Multi-Arch: same
+Homepage: http://www.digip.org/jansson/
+Description-md5: 6fbadadaacb1a0fbc591227b867abcdf
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/j/jansson/libjansson4_2.13.1-1.1_amd64.deb
+Size: 39688
+MD5sum: c13d30bb6a4aab7176645e3ce3d13c76
+SHA256: 7025d03e4ad4177a06692bd8e6edcbdebf7fd3897e5f29b70ae968e17e57f6fa
+
+Package: libjson-c5
+Source: json-c
+Version: 0.15-2+deb11u1
+Installed-Size: 107
+Maintainer: Nicolas Mora <babelouest@debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.14)
+Description: JSON manipulation library - shared library
+Multi-Arch: same
+Homepage: https://github.com/json-c/json-c/wiki
+Description-md5: ac049068ef755540cdb41614a65accbf
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/j/json-c/libjson-c5_0.15-2+deb11u1_amd64.deb
+Size: 42868
+MD5sum: 66ed8215009a373643ef47029ed28431
+SHA256: 5818b78c029d53a445c128c020164cacea07b5effe6e0b2666bcb2eaf5a96b5f
+
+Package: libkeyutils1
+Source: keyutils
+Version: 1.6.1-2
+Installed-Size: 46
+Maintainer: Christian Kastner <ckk@debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.14)
+Description: Linux Key Management Utilities (library)
+Multi-Arch: same
+Homepage: https://people.redhat.com/~dhowells/keyutils/
+Description-md5: 5c4d88a0a818e5ef897f2a9fa5c3ac2d
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/k/keyutils/libkeyutils1_1.6.1-2_amd64.deb
+Size: 15444
+MD5sum: bb188eb33c83eb9e7563089313ea1321
+SHA256: f01060b434d8cad3c58d5811d2082389f11b3db8152657d6c22c1d298953f2a5
+
+Package: kmod
+Version: 28-1
+Installed-Size: 242
+Maintainer: Marco d'Itri <md@linux.it>
+Architecture: amd64
+Depends: libc6 (>= 2.17), liblzma5 (>= 5.1.1alpha+20120614), libssl1.1 (>= 1.1.0), libkmod2 (= 28-1), lsb-base
+Description: tools for managing Linux kernel modules
+Multi-Arch: foreign
+Description-md5: 0cd8f9566ff621a593309a12fd64999f
+Tag: implemented-in::c, role::program
+Section: admin
+Priority: important
+Filename: pool/main/k/kmod/kmod_28-1_amd64.deb
+Size: 92840
+MD5sum: a20fc20369cb7c7e109735b509ecd6e1
+SHA256: 177cc612b3c408d9b60d7b201d74c8dfe468e6e144a1694554dedeb8d2ec8e02
+
+Package: libkmod2
+Source: kmod
+Version: 28-1
+Installed-Size: 135
+Maintainer: Marco d'Itri <md@linux.it>
+Architecture: amd64
+Depends: libc6 (>= 2.17), liblzma5 (>= 5.1.1alpha+20120614), libssl1.1 (>= 1.1.0)
+Description: libkmod shared library
+Multi-Arch: same
+Description-md5: e60216aabe72168f06218f037958581e
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/k/kmod/libkmod2_28-1_amd64.deb
+Size: 55580
+MD5sum: fe3fdc0ca9cb9e7dffeeb03ebf007d27
+SHA256: 7e3799002afb2573c603490db4fe0271026881be1d6df426d49dbe014c0c52ec
+
+Package: libgssapi-krb5-2
+Source: krb5
+Version: 1.18.3-6+deb11u4
+Installed-Size: 451
+Maintainer: Sam Hartman <hartmans@debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.27), libcom-err2 (>= 1.43.9), libk5crypto3 (>= 1.16), libkrb5-3 (= 1.18.3-6+deb11u4), libkrb5support0 (>= 1.15~beta1)
+Suggests: krb5-doc, krb5-user
+Breaks: moonshot-gss-eap (<= 1.0)
+Description: MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
+Multi-Arch: same
+Homepage: http://web.mit.edu/kerberos/
+Description-md5: 2dd7fe357b29d0ba6727171c01f0301c
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/k/krb5/libgssapi-krb5-2_1.18.3-6+deb11u4_amd64.deb
+Size: 165164
+MD5sum: 2b5a3e0afbb607dd5dbf8e223f049be2
+SHA256: 037cc4bb34a6cd0d7a6e83bdcae6d68e0d0f9218eb7dedafc8099c8c0be491a2
+
+Package: libk5crypto3
+Source: krb5
+Version: 1.18.3-6+deb11u4
+Installed-Size: 296
+Maintainer: Sam Hartman <hartmans@debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.25), libkrb5support0 (>= 1.16)
+Suggests: krb5-doc, krb5-user
+Breaks: libgssapi-krb5-2 (<= 1.18~), libkrb5-3 (<= 1.18~)
+Description: MIT Kerberos runtime libraries - Crypto Library
+Multi-Arch: same
+Homepage: http://web.mit.edu/kerberos/
+Description-md5: 4b107bcb8481fee0b8b11744a386a6b0
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/k/krb5/libk5crypto3_1.18.3-6+deb11u4_amd64.deb
+Size: 113692
+MD5sum: 6373be6c8c78d3f94f2b557ce7f27739
+SHA256: f635062bcbfe2eef5a83fcba7d1a8ae343fc7c779cae88b11cae90fd6845a744
+
+Package: libkrb5-3
+Source: krb5
+Version: 1.18.3-6+deb11u4
+Installed-Size: 1108
+Maintainer: Sam Hartman <hartmans@debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.25), libcom-err2 (>= 1.43.9), libk5crypto3 (>= 1.15~beta1), libkeyutils1 (>= 1.5.9), libkrb5support0 (= 1.18.3-6+deb11u4), libssl1.1 (>= 1.1.0)
+Recommends: krb5-locales
+Suggests: krb5-doc, krb5-user
+Breaks: libapache2-mod-auth-kerb (<= 5.4-2.4), libsmbclient (<= 2:3.6.1-2), sssd (<= 1.2.1-4.3)
+Description: MIT Kerberos runtime libraries
+Multi-Arch: same
+Homepage: http://web.mit.edu/kerberos/
+Description-md5: 07bb931a85fb24c6a0ef0f62a94bb26c
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/k/krb5/libkrb5-3_1.18.3-6+deb11u4_amd64.deb
+Size: 363008
+MD5sum: 1d2f90786efcec7f64f2d81ef02e57b2
+SHA256: b785fa324cf27e6bf7f97fc0279470e6ce8a8cc54f8ccc6c9b24c8111ba5c952
+
+Package: libkrb5support0
+Source: krb5
+Version: 1.18.3-6+deb11u4
+Installed-Size: 169
+Maintainer: Sam Hartman <hartmans@debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.25)
+Breaks: libgssapi-krb5-2 (<< 1.13~alpha1-1), libk5crypto3 (<< 1.16), libkadm5clnt-mit9 (<< 1.13~alpha1-1), libkadm5srv-mit9 (<< 1.13~alpha1-1), libkdb5-8 (<< 1.16)
+Description: MIT Kerberos runtime libraries - Support library
+Multi-Arch: same
+Homepage: http://web.mit.edu/kerberos/
+Description-md5: 4f3abf66dd7bfd20406fc400a05b0693
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/k/krb5/libkrb5support0_1.18.3-6+deb11u4_amd64.deb
+Size: 65564
+MD5sum: dc531dfc8000c398591b2cf6f2d97266
+SHA256: da8d022e3dd7f4a72ea32e328b3ac382dbe6bdb91606c5738fe17a29f8ea8080
+
+Package: less
+Version: 551-2+deb11u2
+Installed-Size: 304
+Maintainer: Milan Kupcevic <milan@debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.14), libtinfo6 (>= 6)
+Description: pager program similar to more
+Multi-Arch: foreign
+Homepage: http://www.greenwoodsoftware.com/less/
+Description-md5: a2c2d2eff1fb9762b71faf7540cf8dce
+Tag: implemented-in::c, interface::text-mode, role::program, scope::utility,
+ suite::gnu, uitoolkit::ncurses, use::viewing, works-with::text
+Section: text
+Priority: important
+Filename: pool/main/l/less/less_551-2+deb11u2_amd64.deb
+Size: 135828
+MD5sum: be8f643e3fe49eefb79ef287fa76e105
+SHA256: 57aad1d58d304f3d1e41b014be6cf620f547d98132304353186c3cc5791778a4
+
+Package: libbpf0
+Source: libbpf (0.3-2)
+Version: 1:0.3-2
+Installed-Size: 270
+Maintainer: Sudip Mukherjee <sudipm.mukherjee@gmail.com>
+Architecture: amd64
+Depends: libc6 (>= 2.22), libelf1 (>= 0.142), zlib1g (>= 1:1.2.3.3)
+Description: eBPF helper library (shared library)
+Multi-Arch: same
+Description-md5: 9e65db5c450ca9fddd236083a364e366
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/libb/libbpf/libbpf0_0.3-2_amd64.deb
+Size: 98280
+MD5sum: dfd0183034d9cf35d31e9c0ec29fe3ff
+SHA256: 21775f2ae3e1221dab6b9cbb7743df54f751b831e89e005a6f3ce951ba3a30b9
+
+Package: libbsd0
+Source: libbsd
+Version: 0.11.3-1+deb11u1
+Installed-Size: 191
+Maintainer: Guillem Jover <guillem@debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.25), libmd0 (>= 1.0.3-2)
+Description: utility functions from BSD systems - shared library
+Multi-Arch: same
+Homepage: https://libbsd.freedesktop.org/
+Description-md5: 85853962ecf54d2af43ee57974a0c0ed
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/libb/libbsd/libbsd0_0.11.3-1+deb11u1_amd64.deb
+Size: 107800
+MD5sum: f32eadadc955acec26680bbe0d961d9e
+SHA256: 6ec5a08a4bb32c0dc316617f4bbefa8654c472d1cd4412ab8995f3955491f4a8
+
+Package: libcap-ng0
+Source: libcap-ng (0.7.9-2.2)
+Version: 0.7.9-2.2+b1
+Installed-Size: 48
+Maintainer: Pierre Chifflier <pollux@debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.8)
+Description: An alternate POSIX capabilities library
+Multi-Arch: same
+Homepage: http://people.redhat.com/sgrubb/libcap-ng
+Description-md5: a9611912ade327f38052faa7edd07603
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/libc/libcap-ng/libcap-ng0_0.7.9-2.2+b1_amd64.deb
+Size: 14764
+MD5sum: 339c106870c49784bceb6f2bbe206454
+SHA256: d34e29769b8ef23e9b9920814afb7905b8ee749db0814e6a8d937ccc4f309830
+
+Package: libcap2
+Version: 1:2.44-1
+Installed-Size: 65
+Maintainer: Christian Kastner <ckk@debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.14)
+Description: POSIX 1003.1e capabilities (library)
+Multi-Arch: same
+Homepage: https://sites.google.com/site/fullycapable/
+Description-md5: cd474c07928607f123b20712016d716e
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/libc/libcap2/libcap2_2.44-1_amd64.deb
+Size: 23604
+MD5sum: ee70912fc35cea29a022591a4f1ba6c3
+SHA256: 7a3ae3e97d0d403a4c54663c0bb48e9341d98822420a4ab808c6dc8e8474558f
+
+Package: libcap2-bin
+Source: libcap2
+Version: 1:2.44-1
+Installed-Size: 116
+Maintainer: Christian Kastner <ckk@debian.org>
+Architecture: amd64
+Replaces: libcap-bin
+Depends: libc6 (>= 2.14), libcap2 (>= 1:2.33)
+Recommends: libpam-cap
+Breaks: libcap-bin
+Description: POSIX 1003.1e capabilities (utilities)
+Multi-Arch: foreign
+Homepage: https://sites.google.com/site/fullycapable/
+Description-md5: f223f06c6e812dc45d4b21cbd8163d36
+Tag: admin::configuring, admin::filesystem, implemented-in::c,
+ interface::commandline, role::program, scope::utility,
+ use::configuring, works-with::file
+Section: utils
+Priority: optional
+Filename: pool/main/libc/libcap2/libcap2-bin_2.44-1_amd64.deb
+Size: 32612
+MD5sum: 5f7685bb62fec606d82e7f9494477380
+SHA256: a5b9717d8455cf8517c4c5f29aa04a4dec973430f0d3c1232f652abb9a4d93cc
+
+Package: libedit2
+Source: libedit (3.1-20191231-2)
+Version: 3.1-20191231-2+b1
+Installed-Size: 259
+Maintainer: LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>
+Architecture: amd64
+Replaces: libedit-dev (<< 3.1-20180525-2~)
+Depends: libbsd0 (>= 0.1.3), libc6 (>= 2.14), libtinfo6 (>= 6)
+Description: BSD editline and history libraries
+Multi-Arch: same
+Homepage: https://www.thrysoee.dk/editline/
+Description-md5: 16f9b7e3d0830d8027f7f78c9be66a88
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/libe/libedit/libedit2_3.1-20191231-2+b1_amd64.deb
+Size: 96744
+MD5sum: d2eb2688d0279cac0e564aab3139bb22
+SHA256: ac545f6ad10ba791aca24b09255ad1d6d943e6bc7c5511d5998e104aee51c943
+
+Package: libestr0
+Source: libestr (0.1.10-2.1)
+Version: 0.1.10-2.1+b1
+Installed-Size: 33
+Maintainer: Pierre Chifflier <pollux@debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.14)
+Description: Helper functions for handling strings (lib)
+Multi-Arch: same
+Homepage: http://libestr.sourceforge.net/
+Description-md5: 74857ff94ce38c80a06bdb68ef96d519
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/libe/libestr/libestr0_0.1.10-2.1+b1_amd64.deb
+Size: 9048
+MD5sum: 9505f1643244293303bfc3a7e90eb0db
+SHA256: e88cf7559043cc45338f2c8cabb5d743948bf8348441e8569957675ff9c18f4a
+
+Package: libfastjson4
+Source: libfastjson
+Version: 0.99.9-1
+Installed-Size: 76
+Maintainer: Michael Biebl <biebl@debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.14)
+Description: fast json library for C
+Multi-Arch: same
+Homepage: https://github.com/rsyslog/libfastjson
+Description-md5: 017dd0ebde83a31494314ccb995adb51
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/libf/libfastjson/libfastjson4_0.99.9-1_amd64.deb
+Size: 28432
+MD5sum: e1470dfa554a22b004bb29235c8cfa48
+SHA256: b3b05f57d035b8b2749c6cc6262bd76350032a540fbbb9d992fed417ccbe5865
+
+Package: libffi7
+Source: libffi
+Version: 3.3-6
+Installed-Size: 66
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.14)
+Description: Foreign Function Interface library runtime
+Multi-Arch: same
+Homepage: https://sourceware.org/libffi/
+Description-md5: aa11fa9e12227fc9a1de7b2cb193c270
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/libf/libffi/libffi7_3.3-6_amd64.deb
+Size: 23096
+MD5sum: 3b08290f9933a3f21536a15e0ee6dedd
+SHA256: 30ca89bfddae5fa6e0a2a044f22b6e50cd17c4bc6bc850c579819aeab7101f0f
+
+Package: libgcrypt20
+Version: 1.8.7-6
+Installed-Size: 1355
+Maintainer: Debian GnuTLS Maintainers <pkg-gnutls-maint@lists.alioth.debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.15), libgpg-error0 (>= 1.25)
+Suggests: rng-tools
+Description: LGPL Crypto library - runtime library
+Multi-Arch: same
+Homepage: https://directory.fsf.org/project/libgcrypt/
+Description-md5: e8ab63c6be1944ea9efde5248663f053
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/libg/libgcrypt20/libgcrypt20_1.8.7-6_amd64.deb
+Size: 563136
+MD5sum: 1d331cdb7b2cbf6a5738f4d3c0d38ac6
+SHA256: 7a2e0eef8e0c37f03f3a5fcf7102a2e3dc70ba987f696ab71949f9abf36f35ef
+
+Package: libgpg-error0
+Source: libgpg-error
+Version: 1.38-2
+Installed-Size: 188
+Maintainer: Debian GnuPG Maintainers <pkg-gnupg-maint@lists.alioth.debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.14)
+Recommends: libgpg-error-l10n
+Description: GnuPG development runtime library
+Multi-Arch: same
+Homepage: https://www.gnupg.org/related_software/libgpg-error/
+Description-md5: 25a68a249e16424360132bea187a6d2b
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/libg/libgpg-error/libgpg-error0_1.38-2_amd64.deb
+Size: 77536
+MD5sum: 1172405e042e5ceeb95d3ce14796963f
+SHA256: 16a507fb20cc58b5a524a0dc254a9cb1df02e1ce758a2d8abde0bc4a3c9b7c26
+
+Package: libidn2-0
+Source: libidn2
+Version: 2.3.0-5
+Installed-Size: 300
+Maintainer: Debian Libidn team <help-libidn@gnu.org>
+Architecture: amd64
+Depends: libc6 (>= 2.14), libunistring2 (>= 0.9.7)
+Description: Internationalized domain names (IDNA2008/TR46) library
+Multi-Arch: same
+Homepage: https://www.gnu.org/software/libidn/#libidn2
+Description-md5: 6db3016f9ad1788327b1e04cd1c8616e
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/libi/libidn2/libidn2-0_2.3.0-5_amd64.deb
+Size: 86108
+MD5sum: 8c836e7656163e2e5ae2f3575fbdd855
+SHA256: cb80cd769171537bafbb4a16c12ec427065795946b3415781bc9792e92d60b59
+
+Package: liblocale-gettext-perl
+Source: liblocale-gettext-perl (1.07-4)
+Version: 1.07-4+b1
+Installed-Size: 55
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.2.5)
+Pre-Depends: perl-base (>= 5.32.0-4), perlapi-5.32.0
+Description: module using libc functions for internationalization in Perl
+Homepage: https://metacpan.org/release/gettext
+Description-md5: 0a002213d8a0ad34a0f605e0204c21ee
+Tag: devel::i18n, devel::lang:perl, devel::library, implemented-in::c,
+ implemented-in::perl, role::devel-lib
+Section: perl
+Priority: optional
+Filename: pool/main/libl/liblocale-gettext-perl/liblocale-gettext-perl_1.07-4+b1_amd64.deb
+Size: 19048
+MD5sum: 9b7eed93ea18cbf826f5bdfccbf0d05c
+SHA256: af50e8191f505b2afc0bdc1b6323a75842bfeed9e5a092565824cf4913f2d340
+
+Package: liblognorm5
+Source: liblognorm
+Version: 2.0.5-1.1
+Installed-Size: 169
+Maintainer: Pierre Chifflier <pollux@debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.14), libestr0 (>= 0.1.0), libfastjson4 (>= 0.99.3)
+Description: log normalizing library
+Multi-Arch: same
+Homepage: http://www.liblognorm.com/
+Description-md5: da67a845ae86bc40b52f7b465cdfaed7
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/libl/liblognorm/liblognorm5_2.0.5-1.1_amd64.deb
+Size: 64512
+MD5sum: 12bb5ce55f42b362149e57f76319a629
+SHA256: 3feab76c9d4f9ddcef1a1c043c36aaaa1aa853d61ee3eac121587a91f94b0014
+
+Package: libmd0
+Source: libmd
+Version: 1.0.3-3
+Installed-Size: 77
+Maintainer: Guillem Jover <guillem@debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.14)
+Description: message digest functions from BSD systems - shared library
+Multi-Arch: same
+Homepage: https://www.hadrons.org/software/libmd/
+Description-md5: 9f178d99a8400fec0a8ae1aa28518f9b
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/libm/libmd/libmd0_1.0.3-3_amd64.deb
+Size: 27972
+MD5sum: 46d89ca5b43e9995e9463be403114144
+SHA256: 9e425b3c128b69126d95e61998e1b5ef74e862dd1fc953d91eebcc315aea62ea
+
+Package: libmnl0
+Source: libmnl
+Version: 1.0.4-3
+Installed-Size: 46
+Maintainer: Debian Netfilter Packaging Team <pkg-netfilter-team@lists.alioth.debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.14)
+Description: minimalistic Netlink communication library
+Multi-Arch: same
+Homepage: https://netfilter.org/projects/libmnl/
+Description-md5: 6e8dc655315a40a8d6d0cab77a49b003
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/libm/libmnl/libmnl0_1.0.4-3_amd64.deb
+Size: 12476
+MD5sum: b05c852d37ca1cdd984445d0a9f45481
+SHA256: 4581f42e3373cb72f9ea4e88163b17873afca614a6c6f54637e95aa75983ea7c
+
+Package: libnftnl11
+Source: libnftnl
+Version: 1.1.9-1
+Installed-Size: 236
+Maintainer: Debian Netfilter Packaging Team <pkg-netfilter-team@lists.alioth.debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.14), libmnl0 (>= 1.0.3-4~)
+Description: Netfilter nftables userspace API library
+Multi-Arch: same
+Homepage: https://git.netfilter.org/libnftnl
+Description-md5: 9ee5410a83ce7cab960810f5332b35f0
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/libn/libnftnl/libnftnl11_1.1.9-1_amd64.deb
+Size: 63708
+MD5sum: 7dc8d0a08cf4c234c4f679058ebd9633
+SHA256: 04da1ce7c71a3b1f3b52a2315e844dda6f7130db0857262d79d983182e86ccd7
+
+Package: libnsl2
+Source: libnsl
+Version: 1.3.0-2
+Installed-Size: 127
+Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.14), libtirpc3 (>= 1.0.2)
+Description: Public client interface for NIS(YP) and NIS+
+Multi-Arch: same
+Homepage: https://github.com/thkukuk/libnsl
+Description-md5: 4c1cacf3967f03c84acb322d7186e004
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/libn/libnsl/libnsl2_1.3.0-2_amd64.deb
+Size: 39480
+MD5sum: 35f670dd707691bfa65ec9ecec32d8a0
+SHA256: c0d83437fdb016cb289436f49f28a36be44b3e8f1f2498c7e3a095f709c0d6f8
+
+Package: libseccomp2
+Source: libseccomp
+Version: 2.5.1-1+deb11u1
+Installed-Size: 158
+Maintainer: Kees Cook <kees@debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.4)
+Description: high level interface to Linux seccomp filter
+Multi-Arch: same
+Homepage: https://github.com/seccomp/libseccomp
+Description-md5: 7ee97a8161e83bfebc75870eb92bde51
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/libs/libseccomp/libseccomp2_2.5.1-1+deb11u1_amd64.deb
+Size: 48512
+MD5sum: 905c0689cbc5dd14d62c19cb22ac7ba3
+SHA256: 2617fc8b99dca0fa8ed466ee0f5fe087aa4e8413b88ca45d717290f4a0551e36
+
+Package: libselinux1
+Source: libselinux
+Version: 3.1-3
+Installed-Size: 207
+Maintainer: Debian SELinux maintainers <selinux-devel@lists.alioth.debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.14), libpcre2-8-0 (>= 10.22)
+Description: SELinux runtime shared libraries
+Multi-Arch: same
+Homepage: https://selinuxproject.org
+Description-md5: 90f6e1cb06c527bc3fc11ec6f969c59c
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/libs/libselinux/libselinux1_3.1-3_amd64.deb
+Size: 88124
+MD5sum: 54f3790fe67396277bc85c6a91f61dbd
+SHA256: 339f5ede10500c16dd7192d73169c31c4b27ab12130347275f23044ec8c7d897
+
+Package: libsemanage-common
+Source: libsemanage
+Version: 3.1-1
+Installed-Size: 36
+Maintainer: Debian SELinux maintainers <selinux-devel@lists.alioth.debian.org>
+Architecture: all
+Replaces: libsemanage1 (<= 2.0.41-1), libsemanage1-dev (<< 2.1.6-3~)
+Breaks: libsemanage1 (<= 2.0.41-1), libsemanage1-dev (<< 2.1.6-3~)
+Description: Common files for SELinux policy management libraries
+Multi-Arch: foreign
+Homepage: http://userspace.selinuxproject.org/
+Description-md5: c7a0a093650c85e838f42492add9b46b
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/libs/libsemanage/libsemanage-common_3.1-1_all.deb
+Size: 21308
+MD5sum: b6006d54ced57e66e612f6329bc87942
+SHA256: d319a026ecd02e2f605c52350949279f3c331a19380f8b6888ce5b9ef0d31349
+
+Package: libsemanage1
+Source: libsemanage (3.1-1)
+Version: 3.1-1+b2
+Installed-Size: 307
+Maintainer: Debian SELinux maintainers <selinux-devel@lists.alioth.debian.org>
+Architecture: amd64
+Depends: libsemanage-common (= 3.1-1), libaudit1 (>= 1:2.2.1), libbz2-1.0, libc6 (>= 2.14), libselinux1 (>= 3.1), libsepol1 (>= 3.1)
+Breaks: policycoreutils (<< 3.0), selinux-policy-default (<< 2:2.20140421-10~), selinux-policy-mls (<< 2:2.20140421-10~)
+Description: SELinux policy management library
+Multi-Arch: same
+Homepage: http://userspace.selinuxproject.org/
+Description-md5: 8998b538051f37f69c5f1bf9a005fa56
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/libs/libsemanage/libsemanage1_3.1-1+b2_amd64.deb
+Size: 99332
+MD5sum: 0f58f0fc5ce04fa7af22888780f8ca9a
+SHA256: d8f2835b22df58ba45d52eb3aab224190f193576caf05e3f80deb2e4f927fad6
+
+Package: libsepol1
+Source: libsepol
+Version: 3.1-1
+Installed-Size: 743
+Maintainer: Debian SELinux maintainers <selinux-devel@lists.alioth.debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.14)
+Description: SELinux library for manipulating binary security policies
+Multi-Arch: same
+Homepage: http://userspace.selinuxproject.org/
+Description-md5: d569fae7efa3328b3d40879b104d9a63
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/libs/libsepol/libsepol1_3.1-1_amd64.deb
+Size: 264624
+MD5sum: bef96313bfe870ac95ddade00c057984
+SHA256: b6057dc6806a6dfaef74b09d84d1f18716d7a6d2f1da30520cef555210c6af62
+
+Package: libtasn1-6
+Version: 4.16.0-2+deb11u1
+Installed-Size: 124
+Maintainer: Debian GnuTLS Maintainers <pkg-gnutls-maint@lists.alioth.debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.14)
+Description: Manage ASN.1 structures (runtime)
+Multi-Arch: same
+Homepage: https://www.gnu.org/software/libtasn1/
+Description-md5: 535058cbce5722d1c5d399c0854dd71f
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/libt/libtasn1-6/libtasn1-6_4.16.0-2+deb11u1_amd64.deb
+Size: 54908
+MD5sum: 8403e179420c6f2905d8d0758aa6dd5a
+SHA256: 6ebb579337cdc9d6201237a66578425a7a221db622524354e27c0c1bcb6dd7ca
+
+Package: libtext-charwidth-perl
+Source: libtext-charwidth-perl (0.04-10)
+Version: 0.04-10+b1
+Installed-Size: 43
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.4), perl-base (>= 5.32.0-4), perlapi-5.32.0
+Description: get display widths of characters on the terminal
+Homepage: https://metacpan.org/release/Text-CharWidth
+Description-md5: 30483f9a76c70cf6313cecc3a60f2a13
+Tag: devel::lang:perl, devel::library, implemented-in::c,
+ implemented-in::perl, role::devel-lib, role::program,
+ use::text-formatting, works-with-format::plaintext, works-with::text
+Section: perl
+Priority: optional
+Filename: pool/main/libt/libtext-charwidth-perl/libtext-charwidth-perl_0.04-10+b1_amd64.deb
+Size: 10648
+MD5sum: 5f31a04f45b3283ff788ddf7933d444b
+SHA256: 68643bc672874784dbc5b5b9635eb0a5152484bf3077f298dccbd3d5148a8839
+
+Package: libtext-iconv-perl
+Source: libtext-iconv-perl (1.7-7)
+Version: 1.7-7+b1
+Installed-Size: 51
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.4), perl-base (>= 5.32.0-4), perlapi-5.32.0
+Description: module to convert between character sets in Perl
+Homepage: https://metacpan.org/release/Text-Iconv
+Description-md5: 10c6fd1eca31671f3487b084467ed3f5
+Tag: devel::i18n, devel::lang:perl, devel::library, implemented-in::c,
+ implemented-in::perl, role::devel-lib, role::program, use::converting,
+ works-with-format::plaintext, works-with::text, works-with::unicode
+Section: perl
+Priority: optional
+Filename: pool/main/libt/libtext-iconv-perl/libtext-iconv-perl_1.7-7+b1_amd64.deb
+Size: 16092
+MD5sum: 4fed94c3aee76caae0a236369dbdaf01
+SHA256: d994c3f59160deed8ba3f3418b63bcbb0159d65aade7cdb9bec4e89aa3c04626
+
+Package: libtext-wrapi18n-perl
+Version: 0.06-9
+Installed-Size: 26
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: all
+Depends: libtext-charwidth-perl
+Description: internationalized substitute of Text::Wrap
+Homepage: https://metacpan.org/release/Text-WrapI18N
+Description-md5: 6444c64be001648094335df7a6b952d0
+Tag: devel::lang:perl, devel::library, implemented-in::perl, role::devel-lib,
+ role::program, use::text-formatting, works-with::text
+Section: perl
+Priority: optional
+Filename: pool/main/libt/libtext-wrapi18n-perl/libtext-wrapi18n-perl_0.06-9_all.deb
+Size: 8700
+MD5sum: a2c4f0ecd479e048444c6a3b85ed41d3
+SHA256: 3c29816eaf258e5c532c68bc550ad1e03064a1b6c1ff0329bc8a6e6ef49f1a07
+
+Package: libtirpc-common
+Source: libtirpc
+Version: 1.3.1-1+deb11u1
+Installed-Size: 34
+Maintainer: Josue Ortega <josue@debian.org>
+Architecture: all
+Replaces: libtirpc1, libtirpc3 (<< 1.1.4-0.1~)
+Breaks: libtirpc1, libtirpc3 (<< 1.1.4-0.1~)
+Description: transport-independent RPC library - common files
+Multi-Arch: foreign
+Homepage: http://sourceforge.net/projects/libtirpc
+Description-md5: f186b4d689860df1502b7e1917b6dad9
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/libt/libtirpc/libtirpc-common_1.3.1-1+deb11u1_all.deb
+Size: 13464
+MD5sum: a19334e37b6384b89f552065d0942c1a
+SHA256: b2f10cb79e7d7a2f9b30bcdf036127df55cd4a34688547bc2886fa38f4969f77
+
+Package: libtirpc3
+Source: libtirpc
+Version: 1.3.1-1+deb11u1
+Installed-Size: 229
+Maintainer: Josue Ortega <josue@debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.16), libgssapi-krb5-2 (>= 1.17), libtirpc-common (>= 1.3.1-1+deb11u1)
+Breaks: nfs-common (<< 1:1.2.8-7), nfs-kernel-server (<< 1:1.2.8-7)
+Description: transport-independent RPC library
+Multi-Arch: same
+Homepage: http://sourceforge.net/projects/libtirpc
+Description-md5: 604bfb6c9b5f2aed27c76dfa111bffcf
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/libt/libtirpc/libtirpc3_1.3.1-1+deb11u1_amd64.deb
+Size: 84072
+MD5sum: b93154d69545ec3c14dd2139397f0b26
+SHA256: 86b216d59b6efcd07d56d14b8f4281d5c47f24e9c962f46bbaf02fce762c5e6a
+
+Package: libunistring2
+Source: libunistring
+Version: 0.9.10-4
+Installed-Size: 1592
+Maintainer: Jörg Frings-Fürst <debian@jff.email>
+Architecture: amd64
+Depends: libc6 (>= 2.14)
+Description: Unicode string library for C
+Multi-Arch: same
+Homepage: https://www.gnu.org/software/libunistring/
+Description-md5: b202dbec3da512fe5ff554ac46cd2451
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/libu/libunistring/libunistring2_0.9.10-4_amd64.deb
+Size: 379316
+MD5sum: 424c2639ea2e81227d8b163b4a5e2e54
+SHA256: 654433ad02d3a8b05c1683c6c29a224500bf343039c34dcec4e5e9515345e3d4
+
+Package: libcrypt1
+Source: libxcrypt
+Version: 1:4.4.18-4
+Installed-Size: 226
+Maintainer: Marco d'Itri <md@linux.it>
+Architecture: amd64
+Replaces: libc6 (<< 2.29-4)
+Depends: libc6 (>= 2.25)
+Description: libcrypt shared library
+Multi-Arch: same
+Description-md5: deac8c9adc422e925bdaf6bffdd3e875
+Important: yes
+Protected: yes
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/libx/libxcrypt/libcrypt1_4.4.18-4_amd64.deb
+Size: 87504
+MD5sum: d7fd14a5ed9019abe12024988b23bf30
+SHA256: f617952df0c57b4ee039448e3941bccd3f97bfff71e9b0f87ca6dae15cb3f5ef
+
+Package: libzstd1
+Source: libzstd
+Version: 1.4.8+dfsg-2.1
+Installed-Size: 904
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.14)
+Description: fast lossless compression algorithm
+Multi-Arch: same
+Homepage: https://github.com/facebook/zstd
+Description-md5: 5529781042229a3d4fc1e69daa94d736
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/libz/libzstd/libzstd1_1.4.8+dfsg-2.1_amd64.deb
+Size: 318644
+MD5sum: abc4238706c10db45ceeddf52718860e
+SHA256: 5dcadfbb743bfa1c1c773bff91c018f835e8e8c821d423d3836f3ab84773507b
+
+Package: logrotate
+Version: 3.18.0-2+deb11u2
+Installed-Size: 170
+Maintainer: Christian Göttsche <cgzones@googlemail.com>
+Architecture: amd64
+Depends: cron | anacron | cron-daemon | systemd-sysv, libacl1 (>= 2.2.23), libc6 (>= 2.27), libpopt0 (>= 1.14), libselinux1 (>= 3.1~)
+Recommends: bsd-mailx | mailx
+Description: Log rotation utility
+Multi-Arch: foreign
+Homepage: https://github.com/logrotate/logrotate
+Description-md5: bb73169bb75b2b8a2fda1453d214416d
+Tag: admin::automation, admin::logging, implemented-in::c,
+ interface::commandline, role::program, scope::utility,
+ use::compressing, works-with::logfile
+Section: admin
+Priority: important
+Filename: pool/main/l/logrotate/logrotate_3.18.0-2+deb11u2_amd64.deb
+Size: 72592
+MD5sum: c9d1128b7b04c21c2d11f67a312bb8ba
+SHA256: 1b6a2f3e906f1a6706937a0010811589a4232dcdb458b1c6d0ebfa8659e2588a
+
+Package: lsb-base
+Source: lsb
+Version: 11.1.0
+Installed-Size: 49
+Maintainer: Debian sysvinit maintainers <debian-init-diversity@chiark.greenend.org.uk>
+Architecture: all
+Description: Linux Standard Base init script functionality
+Multi-Arch: foreign
+Homepage: https://wiki.linuxfoundation.org/lsb/start
+Description-md5: 097c50ae4dc8b22ec551f0128089a56c
+Tag: admin::boot, implemented-in::shell, role::plugin
+Section: misc
+Priority: optional
+Filename: pool/main/l/lsb/lsb-base_11.1.0_all.deb
+Size: 28700
+MD5sum: 34446c7a4ce621d325c45df40a19d72b
+SHA256: 89ed6332074d827a65305f9a51e591dff20641d61ff5e11f4e1822a9987e96fe
+
+Package: dmsetup
+Source: lvm2 (2.03.11-2.1)
+Version: 2:1.02.175-2.1
+Installed-Size: 255
+Maintainer: Debian LVM Team <team+lvm@tracker.debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.14), libdevmapper1.02.1 (>= 2:1.02.138)
+Description: Linux Kernel Device Mapper userspace library
+Multi-Arch: foreign
+Homepage: https://sourceware.org/lvm2/
+Description-md5: 53b782cbc29445e9c389c933898e1153
+Tag: admin::filesystem, implemented-in::c, interface::commandline,
+ role::program, scope::utility, use::configuring
+Section: admin
+Priority: optional
+Filename: pool/main/l/lvm2/dmsetup_1.02.175-2.1_amd64.deb
+Size: 92056
+MD5sum: 34e3d0bd1371de4c7b8108578a0103e2
+SHA256: 7384821ef6798ec840b996594b72ecd707db3496a727ab861c5712701f4b9196
+
+Package: libdevmapper1.02.1
+Source: lvm2 (2.03.11-2.1)
+Version: 2:1.02.175-2.1
+Installed-Size: 479
+Maintainer: Debian LVM Team <team+lvm@tracker.debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.28), libselinux1 (>= 3.1~), libudev1 (>= 183), dmsetup (>= 2:1.02.175-2.1~)
+Description: Linux Kernel Device Mapper userspace library
+Multi-Arch: same
+Homepage: https://sourceware.org/lvm2/
+Description-md5: 20966f6bb804eef3609ec2e2db69378f
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/l/lvm2/libdevmapper1.02.1_1.02.175-2.1_amd64.deb
+Size: 142920
+MD5sum: a26fb16788f370a8d74c2e6ad49f33b8
+SHA256: 74dfe455175a0181957ee2803f4810d26f4c6e00968b49cb67fe7a006e299eb1
+
+Package: liblz4-1
+Source: lz4
+Version: 1.9.3-2
+Installed-Size: 157
+Maintainer: Nobuhiro Iwamatsu <iwamatsu@debian.org>
+Architecture: amd64
+Replaces: liblz4-1a
+Depends: libc6 (>= 2.14)
+Breaks: liblz4-1a
+Description: Fast LZ compression algorithm library - runtime
+Multi-Arch: same
+Homepage: https://github.com/Cyan4973/lz4
+Description-md5: c21cacb9494ced3b87993140a583422c
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/l/lz4/liblz4-1_1.9.3-2_amd64.deb
+Size: 57492
+MD5sum: c695759e3fece30d28dd69e8c9064cd3
+SHA256: 79ac6e9ca19c483f2e8effcc3401d723dd9dbb3a4ae324714de802adb21a8117
+
+Package: mawk
+Version: 1.3.4.20200120-2
+Installed-Size: 242
+Maintainer: Boyuan Yang <byang@debian.org>
+Architecture: amd64
+Provides: awk
+Depends: libc6 (>= 2.29)
+Description: Pattern scanning and text processing language
+Multi-Arch: foreign
+Homepage: https://invisible-island.net/mawk/
+Description-md5: 05965bfcd1a2333e963d9f1945d161fc
+Tag: devel::interpreter, implemented-in::c, interface::commandline,
+ role::program, scope::utility, use::filtering, use::scanning,
+ works-with::text
+Section: interpreters
+Priority: required
+Filename: pool/main/m/mawk/mawk_1.3.4.20200120-2_amd64.deb
+Size: 112156
+MD5sum: b2125196a17c2e987543b669a65aef5c
+SHA256: 0bc92b1b1851fbdf3343c527fefca7296a7b82ea36b8597924991140b541fc34
+
+Package: nano
+Version: 5.4-2+deb11u3
+Installed-Size: 2530
+Maintainer: Jordi Mallach <jordi@debian.org>
+Architecture: amd64
+Replaces: nano-tiny (<< 2.8.6-2), pico
+Depends: libc6 (>= 2.27), libncursesw6 (>= 6), libtinfo6 (>= 6)
+Suggests: hunspell
+Conflicts: pico
+Breaks: nano-tiny (<< 2.8.6-2)
+Description: small, friendly text editor inspired by Pico
+Homepage: https://www.nano-editor.org/
+Description-md5: af29527665aea4297c3c5acbb24cf1fa
+Tag: implemented-in::c, interface::text-mode, role::program, scope::utility,
+ suite::gnu, uitoolkit::ncurses, use::editing, works-with::text
+Section: editors
+Priority: important
+Filename: pool/main/n/nano/nano_5.4-2+deb11u3_amd64.deb
+Size: 656828
+MD5sum: 6f8bf2033b1487750496ac47275b3d5c
+SHA256: 63e2e3c7e0231a6d5964538cfe0fb9ed278d2567f6c420810ac547cc0bee76e2
+
+Package: libncurses6
+Source: ncurses
+Version: 6.2+20201114-2+deb11u2
+Installed-Size: 335
+Maintainer: Craig Small <csmall@debian.org>
+Architecture: amd64
+Depends: libtinfo6 (= 6.2+20201114-2+deb11u2), libc6 (>= 2.14)
+Recommends: libgpm2
+Breaks: cowdancer (<< 0.89~)
+Description: shared libraries for terminal handling
+Multi-Arch: same
+Homepage: https://invisible-island.net/ncurses/
+Description-md5: 599cbbcff16d09b3b4643d84f37643fd
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/n/ncurses/libncurses6_6.2+20201114-2+deb11u2_amd64.deb
+Size: 102316
+MD5sum: 3438543409144d7e4149eb819cb9d8c9
+SHA256: 5b75c540d26d0525f231d39e5cf27ea7919d57305ba7101ea430c975369095eb
+
+Package: libncursesw6
+Source: ncurses
+Version: 6.2+20201114-2+deb11u2
+Installed-Size: 420
+Maintainer: Craig Small <csmall@debian.org>
+Architecture: amd64
+Depends: libtinfo6 (= 6.2+20201114-2+deb11u2), libc6 (>= 2.14)
+Recommends: libgpm2
+Description: shared libraries for terminal handling (wide character support)
+Multi-Arch: same
+Homepage: https://invisible-island.net/ncurses/
+Description-md5: 1a69a793355bf1fff9186f00b71dd14a
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/n/ncurses/libncursesw6_6.2+20201114-2+deb11u2_amd64.deb
+Size: 132344
+MD5sum: 3a83937f03a3c8633be806547c9d8d9b
+SHA256: 70ed9c6f35a9de73a01b042d740d92c46bbc0392ca4e63ee984417bd8a4eca3a
+
+Package: libtinfo6
+Source: ncurses
+Version: 6.2+20201114-2+deb11u2
+Installed-Size: 537
+Maintainer: Craig Small <csmall@debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.16)
+Description: shared low-level terminfo library for terminal handling
+Multi-Arch: same
+Homepage: https://invisible-island.net/ncurses/
+Description-md5: f681846d99e5156a0882bb53c35d3244
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/n/ncurses/libtinfo6_6.2+20201114-2+deb11u2_amd64.deb
+Size: 341728
+MD5sum: 14ce2e1703d8c8ced11d1f0a553d1ef8
+SHA256: 96ed58b8fd656521e08549c763cd18da6cff1b7801a3a22f29678701a95d7e7b
+
+Package: ncurses-base
+Source: ncurses
+Version: 6.2+20201114-2+deb11u2
+Essential: yes
+Installed-Size: 386
+Maintainer: Craig Small <csmall@debian.org>
+Architecture: all
+Provides: ncurses-runtime
+Breaks: bash-static (<< 4.4.18-1.1), libmono-corlib4.5-cil (<< 4.6.2.7+dfsg-2), libslang2 (<< 2.3.1a-3), libtinfo5 (<< 6.1), libunibilium0 (<< 2), libunibilium4 (<< 2.0.0-3), zsh-static (<< 5.4.2-4)
+Description: basic terminal type definitions
+Multi-Arch: foreign
+Homepage: https://invisible-island.net/ncurses/
+Description-md5: 2cbef17322c0de7f007682de54ca0d4a
+Tag: implemented-in::TODO, role::app-data, uitoolkit::ncurses
+Section: misc
+Priority: required
+Filename: pool/main/n/ncurses/ncurses-base_6.2+20201114-2+deb11u2_all.deb
+Size: 271888
+MD5sum: 5b75a1fc7c1cb484c178fed6a56f6a34
+SHA256: a55a5f94299448279da6a6c2031a9816dc768cd300668ff82ecfc6480bbfc83d
+
+Package: ncurses-bin
+Source: ncurses
+Version: 6.2+20201114-2+deb11u2
+Essential: yes
+Installed-Size: 646
+Maintainer: Craig Small <csmall@debian.org>
+Architecture: amd64
+Pre-Depends: libc6 (>= 2.14), libtinfo6 (>= 6.2+20200912), libtinfo6 (<< 6.3~)
+Description: terminal-related programs and man pages
+Multi-Arch: foreign
+Homepage: https://invisible-island.net/ncurses/
+Description-md5: 682ee2624c08c54a53ecaefd778a4d86
+Tag: admin::configuring, implemented-in::c, interface::commandline,
+ interface::text-mode, role::program, scope::utility, uitoolkit::ncurses
+Section: utils
+Priority: required
+Filename: pool/main/n/ncurses/ncurses-bin_6.2+20201114-2+deb11u2_amd64.deb
+Size: 428812
+MD5sum: cf7621dadeca73a9e1b058d1e67f760a
+SHA256: 051a9ad8f5e9c89b189112114e39a46d3c68855529c826a7879dfd471377fd14
+
+Package: netbase
+Version: 6.3
+Installed-Size: 41
+Maintainer: Marco d'Itri <md@linux.it>
+Architecture: all
+Replaces: ebtables (<< 2.0.11-2)
+Breaks: ebtables (<< 2.0.11-2)
+Description: Basic TCP/IP networking system
+Multi-Arch: foreign
+Description-md5: 0067051a6900632d08b20b289ccd8331
+Tag: network::configuration, role::app-data, suite::debian
+Section: admin
+Priority: important
+Filename: pool/main/n/netbase/netbase_6.3_all.deb
+Size: 19924
+MD5sum: 9987383d91ee3ac83389c7d290f60937
+SHA256: f444889ad3441758e3a5092418e062da2b0c6a811fdb0c262a6b70cb2518dbde
+
+Package: libhogweed6
+Source: nettle
+Version: 3.7.3-1
+Installed-Size: 455
+Maintainer: Magnus Holmgren <holmgren@debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.14), libgmp10 (>= 2:6.1.0), libnettle8
+Description: low level cryptographic library (public-key cryptos)
+Multi-Arch: same
+Homepage: http://www.lysator.liu.se/~nisse/nettle/
+Description-md5: 2a20554eaadbd355079396956d5d3edb
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/n/nettle/libhogweed6_3.7.3-1_amd64.deb
+Size: 320468
+MD5sum: 35f805ed93d2509f75144942f17bd1ba
+SHA256: 6aab2e892cdb2dfba45707601bc6c3b19aa228f70ae5841017f14c3b0ca3d22f
+
+Package: libnettle8
+Source: nettle
+Version: 3.7.3-1
+Installed-Size: 480
+Maintainer: Magnus Holmgren <holmgren@debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.17)
+Description: low level cryptographic library (symmetric and one-way cryptos)
+Multi-Arch: same
+Homepage: http://www.lysator.liu.se/~nisse/nettle/
+Description-md5: 9dcb77a61a93b06eb5b005f9c8c509a4
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/n/nettle/libnettle8_3.7.3-1_amd64.deb
+Size: 270376
+MD5sum: 4d95b4565dde6d7921b765729a92da26
+SHA256: e4f8ec31ed14518b241eb7b423ad5ed3f4a4e8ac50aae72c9fd475c569582764
+
+Package: libnewt0.52
+Source: newt (0.52.21-4)
+Version: 0.52.21-4+b3
+Installed-Size: 379
+Maintainer: Alastair McKinstry <mckinstry@debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.15), libslang2 (>= 2.2.4)
+Recommends: libfribidi0
+Description: Not Erik's Windowing Toolkit - text mode windowing with slang
+Multi-Arch: same
+Homepage: https://pagure.io/newt
+Description-md5: cfc4271054d35387b5e0576f9d7af19a
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/n/newt/libnewt0.52_0.52.21-4+b3_amd64.deb
+Size: 74728
+MD5sum: 9a294f10c3984a3d61038985b7c1f569
+SHA256: 5a59623010dd29b006335c1bb989303031f1148080b90e76e857cd6298aa546e
+
+Package: whiptail
+Source: newt (0.52.21-4)
+Version: 0.52.21-4+b3
+Installed-Size: 71
+Maintainer: Alastair McKinstry <mckinstry@debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.14), libnewt0.52 (>= 0.52.21), libpopt0 (>= 1.14), libslang2 (>= 2.2.4)
+Description: Displays user-friendly dialog boxes from shell scripts
+Multi-Arch: foreign
+Homepage: https://pagure.io/newt
+Description-md5: 845a08009ef9f0ef4ecc0aedd3a36ffa
+Tag: implemented-in::c, interface::TODO, interface::text-mode, role::program,
+ scope::utility, use::viewing
+Section: utils
+Priority: important
+Filename: pool/main/n/newt/whiptail_0.52.21-4+b3_amd64.deb
+Size: 39812
+MD5sum: aa169681c281eb3ecd412cc564b97fed
+SHA256: 3d5126db601ed98ac0a7be7c1eca01465c3aca27d135430086ef08eed0ff2100
+
+Package: libnftables1
+Source: nftables
+Version: 0.9.8-3.1+deb11u2
+Installed-Size: 791
+Maintainer: Debian Netfilter Packaging Team <pkg-netfilter-team@lists.alioth.debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.27), libgmp10, libjansson4 (>= 2.3), libmnl0 (>= 1.0.3-4~), libnftnl11 (>= 1.1.9), libxtables12 (>= 1.6.1)
+Description: Netfilter nftables high level userspace API library
+Multi-Arch: same
+Homepage: https://www.netfilter.org/
+Description-md5: a0142ceed355e6d73013884cbcfb0491
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/n/nftables/libnftables1_0.9.8-3.1+deb11u2_amd64.deb
+Size: 262348
+MD5sum: a907534450df2e4dc3f5af49598520b2
+SHA256: 5e1ee33354c08401f2b88ffb9544fc57385eaf3a63623f54def0adf9a9f93ab0
+
+Package: nftables
+Version: 0.9.8-3.1+deb11u2
+Installed-Size: 178
+Maintainer: Debian Netfilter Packaging Team <pkg-netfilter-team@lists.alioth.debian.org>
+Architecture: amd64
+Depends: libnftables1 (= 0.9.8-3.1+deb11u2), libc6 (>= 2.4), libedit2 (>= 3.1-20130611-0)
+Pre-Depends: dpkg (>= 1.15.7.2)
+Suggests: firewalld
+Description: Program to control packet filtering rules by Netfilter project
+Homepage: https://www.netfilter.org/
+Description-md5: 24bc0867cd246ced705663120fd62b92
+Section: net
+Priority: important
+Filename: pool/main/n/nftables/nftables_0.9.8-3.1+deb11u2_amd64.deb
+Size: 68960
+MD5sum: 66edaad487a2d86bdbec39aa366ba903
+SHA256: a00b1bba3985c4a94c85d21e1cc25ced077456c7b1aef567e0892c149e1e5a68
+
+Package: libssl1.1
+Source: openssl
+Version: 1.1.1w-0+deb11u1
+Installed-Size: 4128
+Maintainer: Debian OpenSSL Team <pkg-openssl-devel@lists.alioth.debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.25), debconf (>= 0.5) | debconf-2.0
+Breaks: isync (<< 1.3.0-2), lighttpd (<< 1.4.49-2), python-boto (<< 2.44.0-1.1), python-httplib2 (<< 0.11.3-1), python-imaplib2 (<< 2.57-5), python3-boto (<< 2.44.0-1.1), python3-imaplib2 (<< 2.57-5)
+Description: Secure Sockets Layer toolkit - shared libraries
+Multi-Arch: same
+Homepage: https://www.openssl.org/
+Description-md5: 88547c6206c7fbc4fcc7d09ce100d210
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/o/openssl/libssl1.1_1.1.1w-0+deb11u1_amd64.deb
+Size: 1565664
+MD5sum: 69e2487f8e0d1c8aefed3e92cb618154
+SHA256: aadf8b4b197335645b230c2839b4517aa444fd2e8f434e5438c48a18857988f7
+
+Package: libp11-kit0
+Source: p11-kit
+Version: 0.23.22-1
+Installed-Size: 1401
+Maintainer: Debian GnuTLS Maintainers <pkg-gnutls-maint@lists.alioth.debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.26), libffi7 (>= 3.3~20180313)
+Breaks: opencryptoki (<= 3.6.1+dfsg-1)
+Description: library for loading and coordinating access to PKCS#11 modules - runtime
+Multi-Arch: same
+Homepage: https://p11-glue.github.io/p11-glue/p11-kit.html
+Description-md5: 35d0359f0f7422b8380df1a478394459
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/p/p11-kit/libp11-kit0_0.23.22-1_amd64.deb
+Size: 336536
+MD5sum: afa64af0602ed59ea1627da8d296ddb0
+SHA256: bfef5f31ee1c730e56e16bb62cc5ff8372185106c75bf1ed1756c96703019457
+
+Package: libpam-modules
+Source: pam
+Version: 1.4.0-9+deb11u1
+Installed-Size: 1048
+Maintainer: Steve Langasek <vorlon@debian.org>
+Architecture: amd64
+Replaces: libpam-umask, libpam0g-util
+Provides: libpam-mkhomedir, libpam-motd, libpam-umask
+Pre-Depends: libaudit1 (>= 1:2.2.1), libc6 (>= 2.27), libcrypt1 (>= 1:4.3.0), libdb5.3, libnsl2 (>= 1.0), libpam0g (>= 1.3.2), libselinux1 (>= 3.1~), libtirpc3 (>= 1.0.2), debconf (>= 0.5) | debconf-2.0, libpam-modules-bin (= 1.4.0-9+deb11u1)
+Conflicts: libpam-mkhomedir, libpam-motd, libpam-umask
+Description: Pluggable Authentication Modules for PAM
+Multi-Arch: same
+Homepage: http://www.linux-pam.org/
+Description-md5: 234b9429528430ead853cc8bbe97ffb4
+Tag: implemented-in::c, role::plugin, security::authentication
+Section: admin
+Priority: required
+Filename: pool/main/p/pam/libpam-modules_1.4.0-9+deb11u1_amd64.deb
+Size: 325816
+MD5sum: e8d03f75064f0a16a1b91d8a40b58101
+SHA256: ca1e121700bf4b3eb33e30e0774d3e63e1adae9d4b6a940ea3501225db3cc287
+
+Package: libpam-modules-bin
+Source: pam
+Version: 1.4.0-9+deb11u1
+Installed-Size: 227
+Maintainer: Steve Langasek <vorlon@debian.org>
+Architecture: amd64
+Replaces: libpam-modules (<< 1.1.3-8)
+Depends: libaudit1 (>= 1:2.2.1), libc6 (>= 2.14), libcrypt1 (>= 1:4.3.0), libpam0g (>= 0.99.7.1), libselinux1 (>= 3.1~)
+Description: Pluggable Authentication Modules for PAM - helper binaries
+Multi-Arch: foreign
+Homepage: http://www.linux-pam.org/
+Description-md5: 25d278fc7450d5202a9a137f71302e58
+Tag: admin::login, admin::user-management, implemented-in::c, protocol::ldap,
+ role::plugin, role::program, role::shared-lib,
+ security::authentication, use::login
+Section: admin
+Priority: required
+Filename: pool/main/p/pam/libpam-modules-bin_1.4.0-9+deb11u1_amd64.deb
+Size: 108096
+MD5sum: 79b3b2b56f6a63f0be4e5849ec09feb0
+SHA256: abbbd181329c236676222d3e912df13f8d1d90a117559edd997d90006369e5c8
+
+Package: libpam-runtime
+Source: pam
+Version: 1.4.0-9+deb11u1
+Installed-Size: 965
+Maintainer: Steve Langasek <vorlon@debian.org>
+Architecture: all
+Replaces: libpam0g-dev, libpam0g-util
+Depends: debconf (>= 0.5) | debconf-2.0, debconf (>= 1.5.19) | cdebconf, libpam-modules (>= 1.0.1-6)
+Conflicts: libpam0g-util
+Description: Runtime support for the PAM library
+Multi-Arch: foreign
+Homepage: http://www.linux-pam.org/
+Description-md5: bc15ddbf92ee7965a8588141c54bb5a1
+Tag: implemented-in::c, role::app-data, role::program,
+ security::authentication, use::configuring
+Section: admin
+Priority: required
+Filename: pool/main/p/pam/libpam-runtime_1.4.0-9+deb11u1_all.deb
+Size: 207376
+MD5sum: ced2fd5d4de87f22327d7583b1291a62
+SHA256: d98a68a56386d0992446417a4ee9fa685ebe841e81303a7d4f45cdd4c133c3f6
+
+Package: libpam0g
+Source: pam
+Version: 1.4.0-9+deb11u1
+Installed-Size: 244
+Maintainer: Steve Langasek <vorlon@debian.org>
+Architecture: amd64
+Replaces: libpam0g-util
+Depends: libaudit1 (>= 1:2.2.1), libc6 (>= 2.14), debconf (>= 0.5) | debconf-2.0
+Suggests: libpam-doc
+Description: Pluggable Authentication Modules library
+Multi-Arch: same
+Homepage: http://www.linux-pam.org/
+Description-md5: af00a40029e1e1d2ad04c042c3b18095
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/p/pam/libpam0g_1.4.0-9+deb11u1_amd64.deb
+Size: 129492
+MD5sum: b7057de6856c8bfe03abc33571989a98
+SHA256: 496771218fb585bb716fdae6ef8824dbfb5d544b4fa2f3cd4d0e4d7158ae2220
+
+Package: libpcre2-8-0
+Source: pcre2
+Version: 10.36-2+deb11u1
+Installed-Size: 664
+Maintainer: Matthew Vernon <matthew@debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.14)
+Description: New Perl Compatible Regular Expression Library- 8 bit runtime files
+Multi-Arch: same
+Homepage: https://pcre.org/
+Description-md5: 734c95b9f25246dab73666cd44bfe6a7
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/p/pcre2/libpcre2-8-0_10.36-2+deb11u1_amd64.deb
+Size: 247784
+MD5sum: a6db9012cf78c5a170b2fa345575fa11
+SHA256: ee192c8d22624eb9d0a2ae95056bad7fb371e5abc17e23e16b1de3ddb17a1064
+
+Package: libpcre3
+Source: pcre3
+Version: 2:8.39-13
+Installed-Size: 669
+Maintainer: Matthew Vernon <matthew@debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.14)
+Conflicts: libpcre3-dev (<= 4.3-3)
+Breaks: approx (<< 4.4-1~), cduce (<< 0.5.3-2~), cmigrep (<< 1.5-7~), galax (<< 1.1-7~), libpcre-ocaml (<< 6.0.1~), liquidsoap (<< 0.9.2-3~), ocsigen (<< 1.3.3-1~)
+Description: Old Perl 5 Compatible Regular Expression Library - runtime files
+Multi-Arch: same
+Description-md5: 554ac784f7314cb2c59649814e330d34
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/p/pcre3/libpcre3_8.39-13_amd64.deb
+Size: 342528
+MD5sum: 0d6f9003c0704b14a98a289fd7de720f
+SHA256: 48efcf2348967c211cd9408539edf7ec3fa9d800b33041f6511ccaecc1ffa9d0
+
+Package: perl-base
+Source: perl
+Version: 5.32.1-4+deb11u3
+Essential: yes
+Installed-Size: 7664
+Maintainer: Niko Tyni <ntyni@debian.org>
+Architecture: amd64
+Replaces: libfile-path-perl (<< 2.16), libfile-temp-perl (<< 0.2309), libio-socket-ip-perl (<< 0.39), libscalar-list-utils-perl (<< 1:1.55), libsocket-perl (<< 2.029), libxsloader-perl (<< 0.30), perl (<< 5.10.1-12), perl-modules (<< 5.20.1-3)
+Provides: libfile-path-perl (= 2.16), libfile-temp-perl (= 0.2309), libio-socket-ip-perl (= 0.39), libscalar-list-utils-perl (= 1:1.55), libsocket-perl (= 2.029), libxsloader-perl (= 0.30), perlapi-5.32.0, perlapi-5.32.1
+Pre-Depends: libc6 (>= 2.29), libcrypt1 (>= 1:4.1.0), dpkg (>= 1.17.17)
+Suggests: perl, sensible-utils
+Conflicts: defoma (<< 0.11.12), doc-base (<< 0.10.3), mono-gac (<< 2.10.8.1-3), safe-rm (<< 0.8), update-inetd (<< 4.41)
+Breaks: amanda-common (<< 1:3.3.9-2), backuppc (<< 3.3.1-2), bucardo (<< 5.5.0-1.1), debconf (<< 1.5.61), dh-haskell (<< 0.3), intltool (<< 0.51.0-4), kio-perldoc (<< 20.04.1-1), latexml (<< 0.8.4-2), libdevel-mat-dumper-perl (<< 0.42-3), libencode-arabic-perl (<< 14.2-2), libexception-class-perl (<< 1.42), libfile-path-perl (<< 2.16), libfile-spec-perl (<< 3.7800), libfile-temp-perl (<< 0.2309), libio-socket-ip-perl (<< 0.39), libmp3-tag-perl (<< 1.13-1.2), libsbuild-perl (<< 0.67.0-1), libscalar-list-utils-perl (<< 1:1.55), libsocket-perl (<< 2.029), libxsloader-perl (<< 0.30), mailagent (<< 1:3.1-81-2), perl (<< 5.32.1~), perl-modules (<< 5.32.1~), pod2pdf (<< 0.42-5.1), slic3r (<< 1.2.9+dfsg-6.1), slic3r-prusa (<< 1.37.0+dfsg-1.1), texinfo (<< 6.1.0.dfsg.1-8)
+Description: minimal Perl system
+Homepage: http://dev.perl.org/perl5/
+Description-md5: 232ab9bd6b6b338a3658c92e4b2ffcee
+Tag: devel::interpreter, devel::lang:perl, devel::library, implemented-in::c,
+ implemented-in::perl, interface::commandline, role::devel-lib,
+ role::program, role::shared-lib
+Section: perl
+Priority: required
+Filename: pool/main/p/perl/perl-base_5.32.1-4+deb11u3_amd64.deb
+Size: 1628460
+MD5sum: 6749307354a20507a4325319c843a677
+SHA256: 94c6299552866aadc58acb8ec5111a74b17bcb453f6e2f45ea5f7c4f42580d13
+
+Package: libpopt0
+Source: popt
+Version: 1.18-2
+Installed-Size: 227
+Maintainer: Michael Jeanson <mjeanson@debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.27)
+Description: lib for parsing cmdline parameters
+Multi-Arch: same
+Homepage: https://github.com/rpm-software-management/popt
+Description-md5: 1bc14780a06cc6b9a0c726cd091c6d96
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/p/popt/libpopt0_1.18-2_amd64.deb
+Size: 49584
+MD5sum: f5b3289afaa00fa31169674df17f9ce7
+SHA256: 2f9fca8afbc5a18211ad46fa5f5df323662ba4d5212fa36bfc30dd551ae86b28
+
+Package: libprocps8
+Source: procps
+Version: 2:3.3.17-5
+Installed-Size: 132
+Maintainer: Craig Small <csmall@debian.org>
+Architecture: amd64
+Replaces: procps (<< 1:3.3.2-1)
+Depends: libc6 (>= 2.14), libsystemd0 (>= 209)
+Description: library for accessing process information from /proc
+Multi-Arch: same
+Homepage: https://gitlab.com/procps-ng/procps
+Description-md5: b045ca4f14733c5441c2830741e9cb4e
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/p/procps/libprocps8_3.3.17-5_amd64.deb
+Size: 63864
+MD5sum: d4d58f107e446d7c384bbb9754ee9f02
+SHA256: 0a60017f0229cd4eec95b9f354c68312cc4ca4770ba8c01f545fd9c02b34e8a0
+
+Package: procps
+Version: 2:3.3.17-5
+Installed-Size: 1648
+Maintainer: Craig Small <csmall@debian.org>
+Architecture: amd64
+Replaces: manpages-de (<< 4.9.1-2), manpages-fr (<< 4.9.1-2), manpages-fr-extra (<< 20151231+nmu1), manpages-pl (<< 1:4.9.1-2)
+Provides: watch
+Depends: libc6 (>= 2.27), libncurses6 (>= 6), libncursesw6 (>= 6), libprocps8 (>= 2:3.3.16-1), libtinfo6 (>= 6), lsb-base (>= 3.0-10), init-system-helpers (>= 1.29~)
+Recommends: psmisc
+Breaks: guymager (<= 0.5.9-1), manpages-de (<< 4.9.1-2), manpages-fr (<< 4.9.1-2), manpages-fr-extra (<< 20151231+nmu1), manpages-pl (<< 1:4.9.1-2), open-vm-tools (<= 2011.12.20-562307-1)
+Description: /proc file system utilities
+Multi-Arch: foreign
+Homepage: https://gitlab.com/procps-ng/procps
+Description-md5: 943f3288c1aaa379fca73a3ff1a35278
+Tag: admin::monitoring, implemented-in::c, interface::commandline,
+ interface::text-mode, role::program, scope::utility,
+ uitoolkit::ncurses, use::checking, use::monitor,
+ works-with::software:running
+Section: admin
+Priority: important
+Filename: pool/main/p/procps/procps_3.3.17-5_amd64.deb
+Size: 501856
+MD5sum: 8a4da251c9ef83b242d2437926ced728
+SHA256: ac8edf0517abe09637c36651cb6a59e10948b2879f3af9003b9145b2128a7a08
+
+Package: libreadline8
+Source: readline
+Version: 8.1-1
+Installed-Size: 471
+Maintainer: Matthias Klose <doko@debian.org>
+Architecture: amd64
+Depends: readline-common, libc6 (>= 2.15), libtinfo6 (>= 6)
+Description: GNU readline and history libraries, run-time libraries
+Multi-Arch: same
+Description-md5: 02109af5819248ca867891090079f329
+Tag: role::shared-lib
+Section: libs
+Priority: important
+Filename: pool/main/r/readline/libreadline8_8.1-1_amd64.deb
+Size: 168612
+MD5sum: daf1141b689c65a298a3a90e0a267deb
+SHA256: 162ba9fdcde81b5502953ed4d84b24e8ad4e380bbd02990ab1a0e3edffca3c22
+
+Package: readline-common
+Source: readline
+Version: 8.1-1
+Installed-Size: 92
+Maintainer: Matthias Klose <doko@debian.org>
+Architecture: all
+Replaces: libreadline-common, libreadline4 (<< 4.3-16), libreadline5 (<< 5.0-11)
+Depends: dpkg (>= 1.15.4) | install-info
+Suggests: readline-doc
+Conflicts: libreadline-common, libreadline5 (<< 5.0-11)
+Description: GNU readline and history libraries, common files
+Multi-Arch: foreign
+Description-md5: c8e28b105311ffa41fe6e8f86c041f82
+Tag: interface::commandline, role::app-data, role::program, suite::gnu
+Section: utils
+Priority: important
+Filename: pool/main/r/readline/readline-common_8.1-1_all.deb
+Size: 73736
+MD5sum: 86a155c27d3612c1abf3786c1a03ecf9
+SHA256: 3f947176ef949f93e4ad5d76c067d33fa97cf90b62ee0748acb4f5f64790edc8
+
+Package: rsyslog
+Version: 8.2102.0-2+deb11u1
+Installed-Size: 1875
+Maintainer: Michael Biebl <biebl@debian.org>
+Architecture: amd64
+Provides: linux-kernel-log-daemon, system-log-daemon
+Depends: libc6 (>= 2.27), libestr0 (>= 0.1.4), libfastjson4 (>= 0.99.8), liblognorm5 (>= 2.0.3), libsystemd0 (>= 246), libuuid1 (>= 2.16), zlib1g (>= 1:1.1.4)
+Pre-Depends: init-system-helpers (>= 1.54~)
+Recommends: logrotate
+Suggests: rsyslog-mysql | rsyslog-pgsql, rsyslog-mongodb, rsyslog-doc, rsyslog-openssl | rsyslog-gnutls, rsyslog-gssapi, rsyslog-relp
+Conflicts: linux-kernel-log-daemon, system-log-daemon
+Description: reliable system and kernel logging daemon
+Homepage: https://www.rsyslog.com/
+Description-md5: c25fbd9bcc88ab95bcc33eea4228fd42
+Tag: admin::logging, implemented-in::c, interface::daemon, role::program,
+ works-with::db, works-with::logfile
+Section: admin
+Priority: important
+Filename: pool/main/r/rsyslog/rsyslog_8.2102.0-2+deb11u1_amd64.deb
+Size: 702816
+MD5sum: b9d62ef2333fcd9467f8519607bcb89f
+SHA256: 2b13b613a24b2247192a1e8e64710c0832cc4d2aef1abe19d97e8438d7170b03
+
+Package: sed
+Version: 4.7-1
+Essential: yes
+Installed-Size: 883
+Maintainer: Clint Adams <clint@debian.org>
+Architecture: amd64
+Pre-Depends: libacl1 (>= 2.2.51-8), libc6 (>= 2.14), libselinux1 (>= 1.32)
+Description: GNU stream editor for filtering/transforming text
+Multi-Arch: foreign
+Homepage: https://www.gnu.org/software/sed/
+Description-md5: 2ed71305ee7a49ce4438c58140980d2f
+Tag: implemented-in::c, interface::commandline, role::program,
+ scope::utility, suite::gnu, use::editing, works-with::file,
+ works-with::text
+Section: utils
+Priority: required
+Filename: pool/main/s/sed/sed_4.7-1_amd64.deb
+Size: 309632
+MD5sum: dee55bfb08935c00028641671bcaffeb
+SHA256: 37917c63d062cd924ba5084820353b256377d88371fbb89537ff06f7a0b5a6c7
+
+Package: sensible-utils
+Version: 0.0.14
+Installed-Size: 44
+Maintainer: Anibal Monsalve Salazar <anibal@debian.org>
+Architecture: all
+Replaces: debianutils (<= 2.32.3), manpages-pl (<= 20060617-3~)
+Description: Utilities for sensible alternative selection
+Multi-Arch: foreign
+Description-md5: 762f81736340b99921c41ac6bb08e2b1
+Tag: implemented-in::shell, role::program, suite::debian
+Section: utils
+Priority: important
+Filename: pool/main/s/sensible-utils/sensible-utils_0.0.14_all.deb
+Size: 14804
+MD5sum: d7a847bd5e8a92b8ed3b586d022cb071
+SHA256: b9a447dc4ec8714196b037e20a2209e62cd669f5450222952f259bda4416b71f
+
+Package: login
+Source: shadow
+Version: 1:4.8.1-1
+Essential: yes
+Installed-Size: 2335
+Maintainer: Shadow package maintainers <pkg-shadow-devel@lists.alioth.debian.org>
+Architecture: amd64
+Replaces: manpages-de (<< 0.5-3), manpages-tr (<< 1.0.5), manpages-zh (<< 1.5.1-1)
+Pre-Depends: libaudit1 (>= 1:2.2.1), libc6 (>= 2.14), libcrypt1 (>= 1:4.1.0), libpam0g (>= 0.99.7.1), libpam-runtime, libpam-modules (>= 1.1.8-1)
+Conflicts: amavisd-new (<< 2.3.3-8), backupninja (<< 0.9.3-5), echolot (<< 2.1.8-4), gnunet (<< 0.7.0c-2), python-4suite (<< 0.99cvs20060405-1)
+Breaks: util-linux (<< 2.32-0.2~)
+Description: system login tools
+Multi-Arch: foreign
+Homepage: https://github.com/shadow-maint/shadow
+Description-md5: 78ac96cb774b9146397717a29f70b14b
+Tag: admin::login, implemented-in::c, interface::commandline,
+ interface::text-mode, role::program, security::authentication,
+ use::login
+Section: admin
+Priority: required
+Filename: pool/main/s/shadow/login_4.8.1-1_amd64.deb
+Size: 654876
+MD5sum: 596dddddf505a6f8515c22a29ee15a7d
+SHA256: 6ff19f91aa6bdd410cc1e1655d7d360ab97593c034bccfe46402e01d6ae2fb08
+
+Package: passwd
+Source: shadow
+Version: 1:4.8.1-1
+Installed-Size: 2736
+Maintainer: Shadow package maintainers <pkg-shadow-devel@lists.alioth.debian.org>
+Architecture: amd64
+Replaces: manpages-tr (<< 1.0.5), manpages-zh (<< 1.5.1-1)
+Depends: libaudit1 (>= 1:2.2.1), libc6 (>= 2.14), libcrypt1 (>= 1:4.1.0), libpam0g (>= 0.99.7.1), libselinux1 (>= 2.1.9), libsemanage1 (>= 2.0.3), libpam-modules
+Description: change and administer password and group data
+Multi-Arch: foreign
+Homepage: https://github.com/shadow-maint/shadow
+Description-md5: 5bbd70e421ed3367a8299e53bd7afed4
+Tag: admin::user-management, implemented-in::c, interface::commandline,
+ role::program, security::authentication
+Section: admin
+Priority: required
+Filename: pool/main/s/shadow/passwd_4.8.1-1_amd64.deb
+Size: 990140
+MD5sum: a1bb0014c80d4b88dd6ca97448ef1b99
+SHA256: 542593f26502e87b4276fa778e6e3ae52e66b973979986fff77803d9fcb2c2e8
+
+Package: libslang2
+Source: slang2
+Version: 2.3.2-5
+Installed-Size: 1631
+Maintainer: Alastair McKinstry <mckinstry@debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.29)
+Description: S-Lang programming library - runtime version
+Multi-Arch: same
+Homepage: http://www.jedsoft.org/slang/
+Built-Using: unicode-data (= 13.0.0-2)
+Description-md5: 63cf6009be68fe5fb7a6729e8527359d
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/s/slang2/libslang2_2.3.2-5_amd64.deb
+Size: 508620
+MD5sum: 31bb82610d688e6223584ca411a7a231
+SHA256: 107ad70aba3dc4dab2bc0fe11c3dd7c2afe9549dd45f4da3f4cf9d360e171eba
+
+Package: libsystemd0
+Source: systemd
+Version: 247.3-7+deb11u5
+Installed-Size: 865
+Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
+Architecture: amd64
+Pre-Depends: libc6 (>= 2.30), libgcrypt20 (>= 1.8.0), liblz4-1 (>= 0.0~r122), liblzma5 (>= 5.1.1alpha+20120614), libzstd1 (>= 1.4.0)
+Description: systemd utility library
+Multi-Arch: same
+Homepage: https://www.freedesktop.org/wiki/Software/systemd
+Description-md5: 92180a6b506aa0eff52136aeb8212dc6
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/s/systemd/libsystemd0_247.3-7+deb11u5_amd64.deb
+Size: 376012
+MD5sum: 279b9804c083b25ebcf6b4b903f34163
+SHA256: b6f43b910f2dff96b50626357712881895891f9559c7fdd62c4b649e400f733d
+
+Package: libudev1
+Source: systemd
+Version: 247.3-7+deb11u5
+Installed-Size: 282
+Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.30)
+Description: libudev shared library
+Multi-Arch: same
+Homepage: https://www.freedesktop.org/wiki/Software/systemd
+Description-md5: ace5b83d7b48187416c90173a93255b6
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/s/systemd/libudev1_247.3-7+deb11u5_amd64.deb
+Size: 168612
+MD5sum: db18277262d88937d5fa1fae6b9064f0
+SHA256: 1db2b4498ae8fc80aaf06e3cf3adc479ae415d0ece1b475e86544de165931865
+
+Package: systemd
+Version: 247.3-7+deb11u5
+Installed-Size: 16028
+Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
+Architecture: amd64
+Depends: libacl1 (>= 2.2.23), libapparmor1 (>= 2.13), libaudit1 (>= 1:2.2.1), libcap2 (>= 1:2.24-9~), libcrypt1 (>= 1:4.4.0), libcryptsetup12 (>= 2:2.3), libgnutls30 (>= 3.7.0), libgpg-error0 (>= 1.14), libip4tc2 (>= 1.8.3), libkmod2 (>= 5~), liblz4-1 (>= 0.0~r130), libmount1 (>= 2.30), libpam0g (>= 0.99.7.1), libseccomp2 (>= 2.4.1), libsystemd0 (= 247.3-7+deb11u5), util-linux (>= 2.27.1), mount (>= 2.26), adduser
+Pre-Depends: libblkid1 (>= 2.24), libc6 (>= 2.30), libgcrypt20 (>= 1.8.0), liblz4-1 (>= 0.0~r122), liblzma5 (>= 5.1.1alpha+20120614), libselinux1 (>= 3.1~), libzstd1 (>= 1.4.0)
+Recommends: dbus, systemd-timesyncd | time-daemon
+Suggests: systemd-container, policykit-1
+Conflicts: consolekit, libpam-ck-connector
+Breaks: python-dbusmock (<< 0.18), python3-dbusmock (<< 0.18), resolvconf (<< 1.83~), systemd-shim (<< 10-4~), udev (<< 247~)
+Description: system and service manager
+Multi-Arch: foreign
+Homepage: https://www.freedesktop.org/wiki/Software/systemd
+Description-md5: 19399579cbc0c47a303288bf15eadcd4
+Tag: admin::boot, implemented-in::c, interface::daemon, role::program,
+ works-with::software:running
+Section: admin
+Priority: important
+Filename: pool/main/s/systemd/systemd_247.3-7+deb11u5_amd64.deb
+Size: 4501860
+MD5sum: f8d35ae89d82226ab55bb40d56561863
+SHA256: fc04e069a39bcdab529a75f48a6575fe7172cf02dcd5b697866312b7ba728a6c
+
+Package: systemd-sysv
+Source: systemd
+Version: 247.3-7+deb11u5
+Installed-Size: 140
+Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
+Architecture: amd64
+Replaces: sysvinit-core, upstart (<< 1.13.2-0ubuntu10~)
+Pre-Depends: systemd
+Recommends: libpam-systemd, libnss-systemd
+Conflicts: file-rc, systemd-shim, sysvinit-core, upstart (<< 1.13.2-0ubuntu10~)
+Description: system and service manager - SysV links
+Multi-Arch: foreign
+Homepage: https://www.freedesktop.org/wiki/Software/systemd
+Description-md5: b0c2db4da8d807aa3f83a2977e491907
+Section: admin
+Priority: important
+Filename: pool/main/s/systemd/systemd-sysv_247.3-7+deb11u5_amd64.deb
+Size: 113696
+MD5sum: 17e40a22a91a04e6d9f51ef0a9f3dc34
+SHA256: 4f9646f3d49cc5b215827ad0a6a7aef595773ad908ba3a6e16ec49302b79eca4
+
+Package: udev
+Source: systemd
+Version: 247.3-7+deb11u5
+Installed-Size: 8962
+Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
+Architecture: amd64
+Replaces: systemd (<< 233-4)
+Depends: libacl1 (>= 2.2.23), libblkid1 (>= 2.24), libc6 (>= 2.30), libkmod2 (>= 5~), libselinux1 (>= 3.1~), adduser, dpkg (>= 1.19.3) | systemd-sysv, libudev1 (= 247.3-7+deb11u5), util-linux (>= 2.27.1)
+Conflicts: hal
+Breaks: systemd (<< 233-4)
+Description: /dev/ and hotplug management daemon
+Multi-Arch: foreign
+Homepage: https://www.freedesktop.org/wiki/Software/systemd
+Description-md5: e875ddb09f46f1f7672af537f0c875ca
+Tag: admin::boot, admin::filesystem, admin::hardware, admin::kernel,
+ devel::lang:c, devel::library, hardware::detection, implemented-in::c,
+ implemented-in::shell, interface::daemon, role::devel-lib,
+ role::program
+Section: admin
+Priority: important
+Filename: pool/main/s/systemd/udev_247.3-7+deb11u5_amd64.deb
+Size: 1463920
+MD5sum: c0a0092bb9ec7508afb645b41100b111
+SHA256: c7dbdf513571f76769e88db073b664f6aa5bf231797290e4b05303320c6b2882
+
+Package: sysvinit-utils
+Source: sysvinit
+Version: 2.96-7+deb11u1
+Essential: yes
+Installed-Size: 79
+Maintainer: Debian sysvinit maintainers <debian-init-diversity@chiark.greenend.org.uk>
+Architecture: amd64
+Depends: lsb-base (>= 11.0.0~), libc6 (>= 2.14)
+Description: System-V-like utilities
+Multi-Arch: foreign
+Homepage: https://savannah.nongnu.org/projects/sysvinit
+Description-md5: 79410281ead72a8950c945cfffb13d5f
+Tag: implemented-in::c, interface::commandline, role::program,
+ scope::utility, use::analysing, use::checking, use::monitor,
+ works-with::software:running
+Section: admin
+Priority: required
+Filename: pool/main/s/sysvinit/sysvinit-utils_2.96-7+deb11u1_amd64.deb
+Size: 25608
+MD5sum: 04e72b9281e00349658d1908b6db23f1
+SHA256: 1e4a937784484b996dc016d484637eba8cfdb1a40950dfa6bf2e922a268bfbd5
+
+Package: tar
+Version: 1.34+dfsg-1+deb11u1
+Essential: yes
+Installed-Size: 3152
+Maintainer: Janos Lenart <ocsi@debian.org>
+Architecture: amd64
+Replaces: cpio (<< 2.4.2-39)
+Pre-Depends: libacl1 (>= 2.2.23), libc6 (>= 2.28), libselinux1 (>= 3.1~)
+Suggests: bzip2, ncompress, xz-utils, tar-scripts, tar-doc
+Conflicts: cpio (<= 2.4.2-38)
+Breaks: dpkg-dev (<< 1.14.26)
+Description: GNU version of the tar archiving utility
+Multi-Arch: foreign
+Homepage: https://www.gnu.org/software/tar/
+Description-md5: 48033bf96442788d1f697785773ad9bb
+Tag: admin::backup, admin::file-distribution, devel::packaging,
+ implemented-in::c, interface::commandline, role::program,
+ scope::utility, suite::gnu, use::storing, works-with-format::tar,
+ works-with::archive, works-with::file
+Section: utils
+Priority: required
+Filename: pool/main/t/tar/tar_1.34+dfsg-1+deb11u1_amd64.deb
+Size: 846996
+MD5sum: f78ba3220256a1e50afc41299bbead88
+SHA256: 41c9c31f67a76b3532036f09ceac1f40a9224f1680395d120a8b24eae60dd54a
+
+Package: tasksel
+Version: 3.68+deb11u1
+Installed-Size: 395
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Architecture: all
+Depends: debconf (>= 0.5) | debconf-2.0, liblocale-gettext-perl, apt, tasksel-data, perl-base (>= 5.14.0-1)
+Pre-Depends: debconf (>= 1.5.34) | cdebconf (>= 0.106)
+Conflicts: base-config (<< 2.32), debconf (<< 1.4.27)
+Description: tool for selecting tasks for installation on Debian systems
+Description-md5: cbbb747708986d11ea77c80b9b038fec
+Tag: admin::package-management, interface::commandline, interface::text-mode,
+ role::program, scope::utility, suite::debian, use::configuring,
+ works-with::software:package
+Section: admin
+Priority: optional
+Filename: pool/main/t/tasksel/tasksel_3.68+deb11u1_all.deb
+Size: 100928
+MD5sum: 6def98d2569fe529e26aaa6986a87593
+SHA256: 6abf84c85a32747ec4281e431c2cf6325ecbf83b7919e347ddf78b3b3511e0af
+
+Package: tasksel-data
+Source: tasksel
+Version: 3.68+deb11u1
+Installed-Size: 211
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Architecture: all
+Depends: tasksel (= 3.68+deb11u1)
+Recommends: laptop-detect
+Conflicts: tasksel (<< 2.67)
+Description: official tasks used for installation of Debian systems
+Description-md5: 9391bb2bf0911e77da080a251569d3cb
+Tag: role::app-data
+Section: admin
+Priority: important
+Filename: pool/main/t/tasksel/tasksel-data_3.68+deb11u1_all.deb
+Size: 18016
+MD5sum: 116548e15a60ee2c0e92f11da37f3022
+SHA256: 9c4215bb4d5e56962e5f68d6b44fc9589ad7c6c57c750d70d081675dd3cddc96
+
+Package: tzdata
+Version: 2024a-0+deb11u1
+Installed-Size: 3454
+Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
+Architecture: all
+Provides: tzdata-bullseye
+Depends: debconf (>= 0.5) | debconf-2.0
+Description: time zone and daylight-saving time data
+Multi-Arch: foreign
+Homepage: https://www.iana.org/time-zones
+Description-md5: a77a3cc9a67658dd7cfdc6547391b8f8
+Tag: role::app-data, use::timekeeping
+Section: localization
+Priority: required
+Filename: pool/main/t/tzdata/tzdata_2024a-0+deb11u1_all.deb
+Size: 303824
+MD5sum: eb1a16b327c2e8e769d7066b057fa5e0
+SHA256: 13befffb7ee127f569af92d736e30c86c199bbd58f9c3cca0d071ed63e04d003
+
+Package: bsdutils
+Source: util-linux (2.36.1-8+deb11u2)
+Version: 1:2.36.1-8+deb11u2
+Essential: yes
+Installed-Size: 394
+Maintainer: util-linux packagers <util-linux@packages.debian.org>
+Architecture: amd64
+Pre-Depends: libc6 (>= 2.17), libsystemd0
+Recommends: bsdextrautils
+Description: basic utilities from 4.4BSD-Lite
+Multi-Arch: foreign
+Homepage: http://www.kernel.org/pub/linux/utils/util-linux/
+Description-md5: 07a52b485dd8e72c97ccec74c54564a0
+Tag: admin::logging, implemented-in::c, interface::commandline,
+ role::program, scope::utility, suite::bsd,
+ works-with::software:running, works-with::text
+Section: utils
+Priority: required
+Filename: pool/main/u/util-linux/bsdutils_2.36.1-8+deb11u2_amd64.deb
+Size: 148700
+MD5sum: c195d52302d8d369fc4f4a9d32956123
+SHA256: bafbd08b1991c4d625a5d1dcf698e91011eca582aecd92d644d68dd4b0e6f28e
+
+Package: fdisk
+Source: util-linux
+Version: 2.36.1-8+deb11u2
+Installed-Size: 520
+Maintainer: util-linux packagers <util-linux@packages.debian.org>
+Architecture: amd64
+Replaces: util-linux (<< 2.29.2-3~)
+Depends: libc6 (>= 2.14), libfdisk1 (>= 2.36), libmount1 (>= 2.24.2), libncursesw6 (>= 6), libsmartcols1 (>= 2.28~rc1), libtinfo6 (>= 6)
+Breaks: util-linux (<< 2.29.2-3~)
+Description: collection of partitioning utilities
+Multi-Arch: foreign
+Homepage: http://www.kernel.org/pub/linux/utils/util-linux/
+Description-md5: 389774810aae3f2323ace16ab9ab19ae
+Tag: uitoolkit::ncurses
+Section: utils
+Priority: important
+Filename: pool/main/u/util-linux/fdisk_2.36.1-8+deb11u2_amd64.deb
+Size: 192272
+MD5sum: 5607c5c435d2c259b1bdf87e30695797
+SHA256: 12e75013864caf6b3fedb0eff5f9af5ed0be56fcc866f3ebb833302e85349a73
+
+Package: libblkid1
+Source: util-linux
+Version: 2.36.1-8+deb11u2
+Installed-Size: 421
+Maintainer: util-linux packagers <util-linux@packages.debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.25)
+Description: block device ID library
+Multi-Arch: same
+Homepage: http://www.kernel.org/pub/linux/utils/util-linux/
+Description-md5: a511054d3223ae05280eebc8f3e2c80e
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/u/util-linux/libblkid1_2.36.1-8+deb11u2_amd64.deb
+Size: 193528
+MD5sum: 4c207eb68ab438c01df95fa7caf6ce2c
+SHA256: be6ec9f14626174a34e27f8ca0c8be5531c07f22266fed4738c978af7f575ab2
+
+Package: libfdisk1
+Source: util-linux
+Version: 2.36.1-8+deb11u2
+Installed-Size: 552
+Maintainer: util-linux packagers <util-linux@packages.debian.org>
+Architecture: amd64
+Depends: libblkid1 (>= 2.24.2), libc6 (>= 2.25), libuuid1 (>= 2.16)
+Description: fdisk partitioning library
+Multi-Arch: same
+Homepage: http://www.kernel.org/pub/linux/utils/util-linux/
+Description-md5: 97986f600b6cd55d9613b5b8eac3b74a
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/u/util-linux/libfdisk1_2.36.1-8+deb11u2_amd64.deb
+Size: 237756
+MD5sum: 897c0dff2724e20c5fe51897a6dcd651
+SHA256: 52e9faf835884e15359ef11c954f8809471fe80f4d2fa71585b20c5f2cedb157
+
+Package: libmount1
+Source: util-linux
+Version: 2.36.1-8+deb11u2
+Installed-Size: 477
+Maintainer: util-linux packagers <util-linux@packages.debian.org>
+Architecture: amd64
+Depends: libblkid1 (>= 2.17.2), libc6 (>= 2.25), libselinux1 (>= 3.1~)
+Description: device mounting library
+Multi-Arch: same
+Homepage: http://www.kernel.org/pub/linux/utils/util-linux/
+Description-md5: 7e446c44302ff94779f1434f2e05d553
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/u/util-linux/libmount1_2.36.1-8+deb11u2_amd64.deb
+Size: 211780
+MD5sum: f816d2cc0248c0aeb5f590c2ae72724a
+SHA256: 43e68214dd58fefe97ec14b131285aadca94167cd7b8f7d765c60f93909eda6e
+
+Package: libsmartcols1
+Source: util-linux
+Version: 2.36.1-8+deb11u2
+Installed-Size: 328
+Maintainer: util-linux packagers <util-linux@packages.debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.25)
+Description: smart column output alignment library
+Multi-Arch: same
+Homepage: http://www.kernel.org/pub/linux/utils/util-linux/
+Description-md5: d5382f0223188fc45ed69f879488c198
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/u/util-linux/libsmartcols1_2.36.1-8+deb11u2_amd64.deb
+Size: 157692
+MD5sum: 6a785b9f2d77eb5def0611d4c77180ae
+SHA256: 0f77983b795f3ef9ed664dab8e8e20ffb477fa87cecca7a74bd5a0c050516345
+
+Package: libuuid1
+Source: util-linux
+Version: 2.36.1-8+deb11u2
+Installed-Size: 129
+Maintainer: util-linux packagers <util-linux@packages.debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.25)
+Recommends: uuid-runtime
+Description: Universally Unique ID library
+Multi-Arch: same
+Homepage: http://www.kernel.org/pub/linux/utils/util-linux/
+Description-md5: f31dd3d34d42a99fedd60c9fb7d79469
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/u/util-linux/libuuid1_2.36.1-8+deb11u2_amd64.deb
+Size: 83904
+MD5sum: 3199f2c6f938fa05b91150a4d9f8a910
+SHA256: 60d982ddfbc6f3cba122b26a887bec00722247e6c657968704daf93d93f5afe3
+
+Package: mount
+Source: util-linux
+Version: 2.36.1-8+deb11u2
+Installed-Size: 438
+Maintainer: util-linux packagers <util-linux@packages.debian.org>
+Architecture: amd64
+Depends: util-linux (>= 2.29.2-3~)
+Pre-Depends: libblkid1 (>= 2.17.2), libc6 (>= 2.17), libmount1 (>= 2.35.1), libsmartcols1 (>= 2.33)
+Suggests: nfs-common
+Description: tools for mounting and manipulating filesystems
+Multi-Arch: foreign
+Homepage: http://www.kernel.org/pub/linux/utils/util-linux/
+Description-md5: 90e187380786a435bb9c85b37afa2c5f
+Tag: admin::filesystem, hardware::storage, implemented-in::c,
+ interface::commandline, role::program, scope::utility
+Section: admin
+Priority: required
+Filename: pool/main/u/util-linux/mount_2.36.1-8+deb11u2_amd64.deb
+Size: 185820
+MD5sum: bc3cab759685d96e0ef2a12f49ee2dc9
+SHA256: 9e0727fd63f19bd8ac8ab6397a2035ffcf6172acd8a196dc3d448ffc34fe483d
+
+Package: util-linux
+Version: 2.36.1-8+deb11u2
+Essential: yes
+Installed-Size: 4615
+Maintainer: util-linux packagers <util-linux@packages.debian.org>
+Architecture: amd64
+Replaces: bash-completion (<< 1:2.8), initscripts (<< 2.88dsf-59.2~), login (<< 1:4.5-1.1~), mount (<< 2.29.2-3~), s390-tools (<< 2.2.0-1~), setpriv (<< 2.32.1-0.2~), sysvinit-utils (<< 2.88dsf-59.1~)
+Depends: login (>= 1:4.5-1.1~)
+Pre-Depends: libaudit1 (>= 1:2.2.1), libblkid1 (>= 2.31.1), libc6 (>= 2.25), libcap-ng0 (>= 0.7.9), libcrypt1 (>= 1:4.1.0), libmount1 (>= 2.34), libpam0g (>= 0.99.7.1), libselinux1 (>= 3.1~), libsmartcols1 (>= 2.34), libsystemd0, libtinfo6 (>= 6), libudev1 (>= 183), libuuid1 (>= 2.16), zlib1g (>= 1:1.1.4)
+Suggests: dosfstools, kbd, util-linux-locales
+Breaks: bash-completion (<< 1:2.8), grml-debootstrap (<< 0.68), mount (<< 2.29.2-3~), s390-tools (<< 2.2.0-1~), setpriv (<< 2.32.1-0.2~), sysvinit-utils (<< 2.88dsf-59.4~)
+Description: miscellaneous system utilities
+Multi-Arch: foreign
+Homepage: http://www.kernel.org/pub/linux/utils/util-linux/
+Description-md5: 33d0291a69ffd307cfba295915df602a
+Tag: admin::configuring, admin::filesystem, admin::hardware,
+ implemented-in::c, interface::commandline, interface::text-mode,
+ role::program, scope::utility, uitoolkit::ncurses
+Section: utils
+Priority: required
+Filename: pool/main/u/util-linux/util-linux_2.36.1-8+deb11u2_amd64.deb
+Size: 1142348
+MD5sum: 4a0efe62be53f297f280a120ae9e2b69
+SHA256: bacfee8e7266143b633eb281a726a861686e6bdf6b76104803d6dfbbf21107f8
+
+Package: vim-common
+Source: vim
+Version: 2:8.2.2434-3+deb11u1
+Installed-Size: 341
+Maintainer: Debian Vim Maintainers <team+vim@tracker.debian.org>
+Architecture: all
+Depends: xxd
+Recommends: vim | vim-gtk3 | vim-athena | vim-nox | vim-tiny
+Description: Vi IMproved - Common files
+Multi-Arch: foreign
+Homepage: https://www.vim.org/
+Description-md5: 30b64c3dceccc4faef229eafc38d0069
+Tag: devel::editor, interface::text-mode, role::app-data, role::program,
+ uitoolkit::ncurses, use::editing, works-with::text, works-with::unicode
+Section: editors
+Priority: important
+Filename: pool/main/v/vim/vim-common_8.2.2434-3+deb11u1_all.deb
+Size: 226176
+MD5sum: 3735be2500835d518a17ed7380ed652b
+SHA256: cd10c6292cc5d5494c947fbf577a25ff48715a4314bde1bd65dde44a90ca694b
+
+Package: vim-tiny
+Source: vim
+Version: 2:8.2.2434-3+deb11u1
+Installed-Size: 1574
+Maintainer: Debian Vim Maintainers <team+vim@tracker.debian.org>
+Architecture: amd64
+Provides: editor
+Depends: vim-common (= 2:8.2.2434-3+deb11u1), libacl1 (>= 2.2.23), libc6 (>= 2.15), libselinux1 (>= 3.1~), libtinfo6 (>= 6)
+Suggests: indent
+Description: Vi IMproved - enhanced vi editor - compact version
+Homepage: https://www.vim.org/
+Description-md5: 85f2dbef1339af3dcf83d9ee00fd5e22
+Tag: devel::editor, implemented-in::c, interface::text-mode, role::program,
+ uitoolkit::ncurses, use::editing, works-with::text, works-with::unicode
+Section: editors
+Priority: important
+Filename: pool/main/v/vim/vim-tiny_8.2.2434-3+deb11u1_amd64.deb
+Size: 744284
+MD5sum: 3b101104ccb4e8367298e4ea9dc33d27
+SHA256: 0cfc3ce179181f9c08f8460360a8bcba05c214d75ba51d78ecf021e42c9a4261
+
+Package: xxd
+Source: vim
+Version: 2:8.2.2434-3+deb11u1
+Installed-Size: 239
+Maintainer: Debian Vim Maintainers <team+vim@tracker.debian.org>
+Architecture: amd64
+Replaces: vim-common (<< 2:7.4.2347-1~)
+Depends: libc6 (>= 2.3.4)
+Breaks: vim-common (<< 2:7.4.2347-1~)
+Description: tool to make (or reverse) a hex dump
+Multi-Arch: foreign
+Homepage: https://www.vim.org/
+Description-md5: d658dacad23806722eb421aab7cc53e5
+Section: editors
+Priority: optional
+Filename: pool/main/v/vim/xxd_8.2.2434-3+deb11u1_amd64.deb
+Size: 192012
+MD5sum: b94692cf8627729c55dd62e137433091
+SHA256: 312e72745206a58d1152b55d38bfa05740d4244e1005f535ed0791af201f4b0d
+
+Package: libxxhash0
+Source: xxhash
+Version: 0.8.0-2
+Installed-Size: 114
+Maintainer: Norbert Preining <norbert@preining.info>
+Architecture: amd64
+Depends: libc6 (>= 2.14)
+Description: shared library for xxhash
+Multi-Arch: same
+Homepage: https://cyan4973.github.io/xxHash
+Description-md5: 6bd5146e7d8c018b3155cacf897b1233
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/x/xxhash/libxxhash0_0.8.0-2_amd64.deb
+Size: 26852
+MD5sum: fefb9ef5f25d7910665c5e00908284aa
+SHA256: 3fb82550a71d27d05672472508548576dfb34486847bc860d3066cda5aaf186f
+
+Package: liblzma5
+Source: xz-utils
+Version: 5.2.5-2.1~deb11u1
+Installed-Size: 277
+Maintainer: Jonathan Nieder <jrnieder@gmail.com>
+Architecture: amd64
+Depends: libc6 (>= 2.17)
+Breaks: liblzma2 (<< 5.1.1alpha+20110809-3~)
+Description: XZ-format compression library
+Multi-Arch: same
+Homepage: https://tukaani.org/xz/
+Description-md5: 0ceca09eb4ab99863be3578fa55e7d2b
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/x/xz-utils/liblzma5_5.2.5-2.1~deb11u1_amd64.deb
+Size: 168496
+MD5sum: 02062213090c2a2cf48ac35629f5d590
+SHA256: 1c79a02415ca5ee7234ac60502fb33ee94fa70b02d1c329a6a14178f8329c435
+
+Package: zlib1g
+Source: zlib
+Version: 1:1.2.11.dfsg-2+deb11u2
+Installed-Size: 167
+Maintainer: Mark Brown <broonie@debian.org>
+Architecture: amd64
+Provides: libz1
+Depends: libc6 (>= 2.14)
+Conflicts: zlib1 (<= 1:1.0.4-7)
+Breaks: libxml2 (<< 2.7.6.dfsg-2), texlive-binaries (<< 2009-12)
+Description: compression library - runtime
+Multi-Arch: same
+Homepage: http://zlib.net/
+Description-md5: 567f396aeeb2b2b63295099aed237057
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/z/zlib/zlib1g_1.2.11.dfsg-2+deb11u2_amd64.deb
+Size: 91420
+MD5sum: f234b0b42fd314ca254a38727d10cef6
+SHA256: 03d2ab2174af76df6f517b854b77460fbdafc3dac0dca979317da67538159a3e
+

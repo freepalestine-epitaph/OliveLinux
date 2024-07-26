@@ -1,0 +1,2 @@
+libkmod 2 libkmod2 (>= 28)
+udeb: libkmod 2 libkmod2-udeb (>= 28)

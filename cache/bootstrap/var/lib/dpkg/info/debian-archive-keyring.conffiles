@@ -1,0 +1,9 @@
+/etc/apt/trusted.gpg.d/debian-archive-bookworm-automatic.gpg
+/etc/apt/trusted.gpg.d/debian-archive-bookworm-security-automatic.gpg
+/etc/apt/trusted.gpg.d/debian-archive-bookworm-stable.gpg
+/etc/apt/trusted.gpg.d/debian-archive-bullseye-automatic.gpg
+/etc/apt/trusted.gpg.d/debian-archive-bullseye-security-automatic.gpg
+/etc/apt/trusted.gpg.d/debian-archive-bullseye-stable.gpg
+/etc/apt/trusted.gpg.d/debian-archive-buster-automatic.gpg
+/etc/apt/trusted.gpg.d/debian-archive-buster-security-automatic.gpg
+/etc/apt/trusted.gpg.d/debian-archive-buster-stable.gpg

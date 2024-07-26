@@ -1,0 +1,32 @@
+#!/bin/sh
+set -e
+# Automatically added by dh_installdeb/13.3.4
+dpkg-maintscript-helper rm_conffile /etc/nftables/bridge-filter 0.5\+snapshot20151106-1 nftables -- "$@"
+dpkg-maintscript-helper rm_conffile /etc/nftables/inet-filter 0.5\+snapshot20151106-1 nftables -- "$@"
+dpkg-maintscript-helper rm_conffile /etc/nftables/ipv4-filter 0.5\+snapshot20151106-1 nftables -- "$@"
+dpkg-maintscript-helper rm_conffile /etc/nftables/ipv4-mangle 0.5\+snapshot20151106-1 nftables -- "$@"
+dpkg-maintscript-helper rm_conffile /etc/nftables/ipv4-nat 0.5\+snapshot20151106-1 nftables -- "$@"
+dpkg-maintscript-helper rm_conffile /etc/nftables/ipv6-filter 0.5\+snapshot20151106-1 nftables -- "$@"
+dpkg-maintscript-helper rm_conffile /etc/nftables/ipv6-mangle 0.5\+snapshot20151106-1 nftables -- "$@"
+dpkg-maintscript-helper rm_conffile /etc/nftables/ipv6-nat 0.5\+snapshot20151106-1 nftables -- "$@"
+dpkg-maintscript-helper rm_conffile /etc/init.d/nftables 0.6-1\~ nftables -- "$@"
+# End automatically added section
+# Automatically added by dh_installsystemd/13.3.4
+if [ -d /run/systemd/system ] && [ "$1" = remove ]; then
+	systemctl --system daemon-reload >/dev/null || true
+fi
+# End automatically added section
+# Automatically added by dh_installsystemd/13.3.4
+if [ "$1" = "remove" ]; then
+	if [ -x "/usr/bin/deb-systemd-helper" ]; then
+		deb-systemd-helper mask 'nftables.service' >/dev/null || true
+	fi
+fi
+
+if [ "$1" = "purge" ]; then
+	if [ -x "/usr/bin/deb-systemd-helper" ]; then
+		deb-systemd-helper purge 'nftables.service' >/dev/null || true
+		deb-systemd-helper unmask 'nftables.service' >/dev/null || true
+	fi
+fi
+# End automatically added section

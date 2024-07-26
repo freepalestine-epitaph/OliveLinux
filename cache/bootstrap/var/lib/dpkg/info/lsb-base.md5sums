@@ -1,0 +1,6 @@
+ccb5fe24467c804ee4e923cdfc028517  lib/lsb/init-functions
+a952ac8590fedfdb51d29175e1dd160b  lib/lsb/init-functions.d/00-verbose
+fec75af04a1409da2309b276f54847b9  usr/share/doc/lsb-base/NEWS.Debian.gz
+66e4c2999e6889a96048fb42443f37a7  usr/share/doc/lsb-base/README.Debian.gz
+2b7eb11ef0c4eabb3ea0a1c73698a0aa  usr/share/doc/lsb-base/changelog.gz
+abc039220c836ef7efeda6e9043fbf10  usr/share/doc/lsb-base/copyright

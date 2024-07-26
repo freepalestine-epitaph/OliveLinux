@@ -1,0 +1,9 @@
+#!/bin/sh
+
+set -e
+
+lb config noauto \
+        --archive-areas "main contrib non-free non-free-firmware" \
+        --distribution bookworm \
+        --bootappend-live 'boot=live components quiet splash plymouth.enable=0 disablehooks=plymouth' \
+        "${@}"

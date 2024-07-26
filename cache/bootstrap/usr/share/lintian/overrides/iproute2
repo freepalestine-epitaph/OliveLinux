@@ -1,0 +1,11 @@
+# False positives, eg: ip link -> ip-link
+iproute2: spare-manual-page
+# False positives
+iproute2: spelling-error-in-binary bin/ip iif if
+iproute2: spelling-error-in-binary sbin/tc iif if
+iproute2: spelling-error-in-copyright Taht That
+iproute2: typo-in-manual-page usr/share/man/man8/ip-mroute.8.gz iif if
+iproute2: typo-in-manual-page usr/share/man/man8/ip-route.8.gz iif if
+iproute2: typo-in-manual-page usr/share/man/man8/ip-rule.8.gz iif if
+iproute2: typo-in-manual-page usr/share/man/man8/tc-codel.8.gz Taht That
+iproute2: typo-in-manual-page usr/share/man/man8/tc-flow.8.gz iif if

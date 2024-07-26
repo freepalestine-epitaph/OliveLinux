@@ -1,0 +1,10 @@
+<background>
+  <static>
+    <duration>8640000.0</duration>
+    <file>
+      <size width="1280" height="1024">/usr/share/desktop-base/hoge-theme/wallpaper/contents/images/splash03.svg</size>
+      <size width="1920" height="1080">/usr/share/desktop-base/hoge-theme/wallpaper/contents/images/16-9.svg</size>
+    </file>
+  </static>
+</background>
+
