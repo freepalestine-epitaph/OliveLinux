@@ -1,0 +1,2 @@
+こちらはOlive LinuxのREADMEです。
+パレスチナ連帯運動の一つとしてGNU/DebianベースのLinuxディストリビューションを作成してみました。
