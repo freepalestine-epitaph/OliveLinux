@@ -5,31 +5,37 @@
 
 パレスチナ連帯運動の一つとしてGNU/DebianベースのLinuxディストリビューションを作成してみました。
 
-# DEMO
+### Table of Contents 🤸
 
-"hoge"の魅力が直感的に伝えわるデモ動画や図解を載せる
+- [Features](#features)
+- [Requirement](#Requirement)
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [Note](#Note)
+- [Author](#Author)
+- [License](#License)
 
-# Features
+# <a name="Features">Features</a>
 
 "hoge"のセールスポイントや差別化などを説明する
 
-# Requirement
+# <a name="Requirement">Requirement</a>
 
-"hoge"を動かすのに必要なライブラリなどを列挙する
+Live環境
 
+インストールする場合
+Debianから転記する
 * huga 3.5.2
 * hogehuga 1.0.2
 
-
-
-# Installation
+# <a name="Installation">Installation</a>
 
 Requirementで列挙したライブラリなどのインストール方法を説明する
 
 現時点では自力でダウンロードからインストールできる方を対象としています。
 
 
-# Usage
+# <a name="Usage">Usage</a>
 
 DEMOの実行方法など、"hoge"の基本的な使い方を説明する
 
@@ -40,11 +46,11 @@ python demo.py
 ```
 中身は普通のDebianなのでLive版で軽く触ってみて気に入ったらインストールして使っていただければ幸いです。
 
-# Note
+# <a name="Note">Note</a>
 
 注意点などがあれば書く
 
-# Author
+# <a name="Author">Author</a>
 
 問い合わせ、ご意見等はこちらまでお願いいたします。
 
@@ -56,5 +62,5 @@ freepalestine@epitaph.co.jp
 
 https://x.com/olive_epitaph
 
-# License
+# <a name="License">License</a>
 "Olive Linux" is under [GNU General Public License](https://en.wikipedia.org/wiki/GNU_General_Public_License).
