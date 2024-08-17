@@ -1,4 +1,4 @@
-[![Olive Linx](hoge.jpg)](https://github.com/freepalestine-epitaph/OliveLinux)
+[![Olive Linx](palestine-flag-banner.jpg)](https://github.com/freepalestine-epitaph/OliveLinux)
 
 # OliveLinux
 こちらはOlive LinuxというLinuxディストリビューションのREADMEです。
