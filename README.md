@@ -5,50 +5,37 @@
 
 パレスチナ連帯運動の一つとしてGNU/DebianベースのLinuxディストリビューションを作成してみました。
 
-### Table of Contents 🤸
+### Table of Contents
 
-- [Features](#features)
 - [Requirement](#Requirement)
 - [Installation](#Installation)
-- [Usage](#Usage)
 - [Note](#Note)
 - [Author](#Author)
 - [License](#License)
 
-# <a name="Features">Features</a>
-
-"hoge"のセールスポイントや差別化などを説明する
-
 # <a name="Requirement">Requirement</a>
 
-Live環境
+## Live環境の場合
 
-インストールする場合
-Debianから転記する
-* huga 3.5.2
-* hogehuga 1.0.2
+* CPU:64bit(amd64)
+
+## インストールする場合
+
+* CPU:64bit(amd64)
+* RAM:256-512MB
+* HDD:4GB
 
 # <a name="Installation">Installation</a>
 
-Requirementで列挙したライブラリなどのインストール方法を説明する
-
 現時点では自力でダウンロードからインストールできる方を対象としています。
 
+PCにインストールする場合、インストーラーのアイコンをクリックしてください。
 
-# <a name="Usage">Usage</a>
-
-DEMOの実行方法など、"hoge"の基本的な使い方を説明する
-
-```bash
-git clone https://github.com/hoge/~
-cd examples
-python demo.py
-```
-中身は普通のDebianなのでLive版で軽く触ってみて気に入ったらインストールして使っていただければ幸いです。
+ダイアログが現れるので「live」と入力して画面の指示に従ってください。
 
 # <a name="Note">Note</a>
 
-注意点などがあれば書く
+中身は普通のDebianなのでLive版で軽く触ってみて気に入ったらインストールして使っていただければ幸いです。
 
 # <a name="Author">Author</a>
 
