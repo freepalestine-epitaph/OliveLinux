@@ -7,6 +7,7 @@
 ### Table of Contents
 
 - [Requirement](#Requirement)
+- [Usage](#Usage)
 - [Installation](#Installation)
 - [Note](#Note)
 - [Author](#Author)
@@ -23,7 +24,7 @@
 * RAM:256-512MB
 * HDD:4GB
 
-#### <a name="Installation">Installation</a>
+#### <a name="Usage">Usage</a>
 
 1.Releasesからisoイメージファイルをダウンロードします。
 
@@ -31,6 +32,8 @@
 
 3.PCに作成したDVD-R（またはUSBメモリ）を接続し起動します。
 
+
+#### <a name="Installation">Installation</a>
 
 PCにインストールする場合は、左下のアイコンをクリックしてください。
 
@@ -44,7 +47,7 @@ PCにインストールする場合は、左下のアイコンをクリックし
 
 #### <a name="Author">Author</a>
 
-問い合わせ、ご意見等はこちらまでお願いいたします。
+問い合わせ、ご意見、要望等はこちらまでお願いいたします。
 
 * E-mail
 freepalestine@epitaph.co.jp
