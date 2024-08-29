@@ -6,23 +6,11 @@
 
 ### Table of Contents
 
-- [Requirement](#Requirement)
 - [Usage](#Usage)
+- [Requirement](#Requirement)
 - [Installation](#Installation)
 - [Note](#Note)
-- [Author](#Author)
-
-#### <a name="Requirement">Requirement</a>
-
-##### Live環境の場合
-
-* CPU:64bit(amd64)
-
-##### インストールする場合
-
-* CPU:64bit(amd64)
-* RAM:256-512MB
-* HDD:4GB
+- [Contacts](#Contacts)
 
 #### <a name="Usage">Usage</a>
 
@@ -39,15 +27,22 @@ PCにインストールする場合は、左下のアイコンをクリックし
 
 ダイアログが現れるので「live」と入力して画面の指示に従ってください。
 
+#### <a name="Requirement">Requirement</a>
+
+* CPU:64bit(amd64)
+* RAM:256-512MB
+* HDD:4GB
+
 #### <a name="Note">Note</a>
 
 中身は普通のDebianなのでLive版で軽く触ってみて気に入ったらインストールして使っていただければ幸いです。
 
-アイコンなどのコンテンツ作成協力者募集中です。
 
-#### <a name="Author">Author</a>
+#### <a name="Contacts">Contacts</a>
 
 問い合わせ、ご意見、要望等はこちらまでお願いいたします。
+
+アイコンなどのコンテンツ作成協力者募集中です。
 
 * E-mail
 freepalestine@epitaph.co.jp
