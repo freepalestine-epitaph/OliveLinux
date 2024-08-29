@@ -2,13 +2,14 @@
 
 # OliveLinux
 こちらはOlive LinuxというLinux(PCのOSのひとつ）のディストリビューションです。
+
 パレスチナ連帯運動の一つとしてGNU/Debianベースで作成してみました。
 
 ### Table of Contents
 
 - [Usage](#Usage)
-- [Requirement](#Requirement)
 - [Installation](#Installation)
+- [Requirement](#Requirement)
 - [Note](#Note)
 - [Contacts](#Contacts)
 
@@ -32,6 +33,8 @@ PCにインストールする場合は、左下のアイコンをクリックし
 * CPU:64bit(amd64)
 * RAM:256-512MB
 * HDD:4GB
+
+詳細は[こちら](https://www.debian.org/releases/stable/amd64/release-notes/ch-whats-new.en.html#idm120)を参照ください。
 
 #### <a name="Note">Note</a>
 
