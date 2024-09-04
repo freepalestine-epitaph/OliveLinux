@@ -3,6 +3,11 @@
 [<img src="https://img.shields.io/badge/-Debian-A81D33.svg?logo=debian&style=flat">](https://www.debian.org/)
 [<img src="https://img.shields.io/github/downloads/freepalestine-epitaph/OliveLinux/total">](https://github.com/freepalestine-epitaph/OliveLinux/releases)
 
+<a href="https://twitter.com/intent/follow?screen_name=aregtech" rel="nofollow"><img src="https://camo.githubusercontent.com/e8fb2076eef74e0eb6a2695e70beda697009f9c3b4ad0822ae506de18193dc25/68747470733a2f2f696d672e736869656c64732e696f2f747769747465722f666f6c6c6f772f61726567746563682e7376673f7374796c653d736f6369616c" alt="Follow us on Twitter" data-canonical-src="https://img.shields.io/twitter/follow/aregtech.svg?style=social" style="max-width: 100%;"></a>
+
+<a href="https://twitter.com/intent/follow?screen_name=aregtech" rel="nofollow"><img src="https://github.com/freepalestine-epitaph/OliveLinux" alt="Follow us on Twitter" data-canonical-src="https://img.shields.io/twitter/follow/aregtech.svg?style=social" style="max-width: 100%;"></a>
+
+
 # OliveLinux
 こちらはOlive LinuxというLinux(PCのOSのひとつ）のディストリビューションです。
 
