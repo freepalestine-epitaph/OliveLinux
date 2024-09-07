@@ -1,7 +1,7 @@
 [![Olive Linx](palestine-flag-banner.png)](https://github.com/freepalestine-epitaph/OliveLinux)
 
 [<img src="https://img.shields.io/badge/-Debian-A81D33.svg?logo=debian&style=flat">](https://www.debian.org/)
-[<img src="https://img.shields.io/github/downloads/freepalestine-epitaph/OliveLinux/total">](https://github.com/freepalestine-epitaph/OliveLinux/releases)
+[<img src="https://img.shields.io/github/downloads/freepalestine-epitaph/OliveLinux/total?logo=github&amp;logoColor=white&amp;style=flat-square">](https://github.com/freepalestine-epitaph/OliveLinux/releases)
 
 # OliveLinux
 こちらはOlive LinuxというLinux(PCのOSのひとつ）のディストリビューションです。
@@ -59,5 +59,3 @@ https://x.com/olive_epitaph
 ↓
 
 <a href="https://twitter.com/intent/tweet?text=%20Try%20OliveLinux!%0A%23FreePalestine%0Ahttps%3A//github.com/freepalestine-epitaph/OliveLinux" rel="nofollow"><img src="https://camo.githubusercontent.com/abcfff2c8e77b48fdd30ae402cbad68968e38a5c2913c3f8132ac7bc4df979e0/68747470733a2f2f696d672e736869656c64732e696f2f747769747465722f75726c3f6c6162656c3d54776974746572266c6f676f3d54776974746572267374796c653d736f6369616c2675726c3d68747470732533412532462532466769746875622e636f6d2532466172656774656368253246617265672d73646b" alt="Shared on Twitter" data-canonical-src="https://img.shields.io/twitter/url?label=Twitter&amp;logo=Twitter&amp;style=social&amp;url=https%3A%2F%2Fgithub.com%2Faregtech%2Fareg-sdk" style="max-width: 100%;"></a>
-
-<a href="https://twitter.com/intent/tweet?text=%20Try%20OliveLinux!%0A%23FreePalestine%0Ahttps%3A//github.com/freepalestine-epitaph/OliveLinux" rel="nofollow"><img src="https://camo.githubusercontent.com/4724c9dca44447f4a8b3d5e8e36354c960f0642ef2c7bf75ee4a406d334f5690/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f646f776e6c6f6164732f616a65657464736f757a612f7a6f786964652f746f74616c3f6c6f676f3d676974687562266c6f676f436f6c6f723d7768697465267374796c653d666c61742d737175617265" alt="Downloads" data-canonical-src="https://img.shields.io/github/downloads/ajeetdsouza/zoxide/total?logo=github&amp;logoColor=white&amp;style=flat-square" style="max-width: 100%;"></a>
