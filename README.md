@@ -19,6 +19,7 @@
 #### <a name="Usage">Usage</a>
 
 1.Releasesからisoイメージファイルをダウンロードします。
+[![Usage01](img/Usage01.jpg)]
 
 2.isoイメージファイルをDVD-RやUSBメモリに焼きます。
 
