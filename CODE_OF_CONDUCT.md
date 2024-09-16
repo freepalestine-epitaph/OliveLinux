@@ -7,5 +7,5 @@
 ### 2024年
 イスラエルによるパレスチナへの侵略・占領は1948年から継続しており、日々無抵抗の子供が虐殺され続けている。「ハマスが悪者でイスラエルは被害者で何も悪くない」「シオニズムは素晴らしい思想だ」という意見を述べる人もいる中で、今現在我々は何をすべきなのか。命を捧げるまではいかなくても私達にできることはなにかあるはず...
 
-[![Flyer](Flyer_KnowingPalestine.pdf)](https://note.com/palestine_key/n/n54d27b9a62da)
-[![Olive Linx](img/palestine-flag-banner.png)](https://github.com/freepalestine-epitaph/OliveLinux)
+[![Flyer](img/Flyer_KnowingPalestine1.jpg)](https://note.com/palestine_key/n/n54d27b9a62da)
+[![Flyer](img/Flyer_KnowingPalestine2.jpg)](https://note.com/palestine_key/n/n54d27b9a62da)

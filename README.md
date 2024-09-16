@@ -1,4 +1,4 @@
-[![Olive Linx](palestine-flag-banner.png)](https://github.com/freepalestine-epitaph/OliveLinux)
+[![Olive Linx](img/palestine-flag-banner.png)](https://github.com/freepalestine-epitaph/OliveLinux)
 
 [<img src="https://img.shields.io/badge/-Debian-A81D33.svg?logo=debian&style=flat">](https://www.debian.org/)
 [<img src="https://img.shields.io/github/downloads/freepalestine-epitaph/OliveLinux/total?logo=github&amp;logoColor=white&amp;style=flat-square">](https://github.com/freepalestine-epitaph/OliveLinux/releases)
