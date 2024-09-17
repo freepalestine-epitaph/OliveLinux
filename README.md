@@ -10,11 +10,7 @@
 
 ### Table of Contents
 
-- [Usage](#Usage)
-- [Installation](#Installation)
-- [Requirement](#Requirement)
-- [Note](#Note)
-- [Contacts](#Contacts)
+[Usage](#Usage)・[Installation](#Installation)・[Requirement](#Requirement)・[Note](#Note)・[Contacts](#Contacts)
 
 #### <a name="Usage">Usage</a>
 
