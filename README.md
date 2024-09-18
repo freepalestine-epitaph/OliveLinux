@@ -2,7 +2,7 @@
 
 [<img src="https://img.shields.io/badge/-Debian-A81D33.svg?logo=debian&style=flat">](https://www.debian.org/)
 [<img src="https://img.shields.io/github/downloads/freepalestine-epitaph/OliveLinux/total?logo=github&amp;logoColor=white&amp;style=flat-square">](https://github.com/freepalestine-epitaph/OliveLinux/releases)
-![badge](https://kounter.kerolloz.dev/badge/kerolloz.kounter?label=OliveLinux&labelColor=white&cntPrefix=visits%20&silent=true)
+![badge](https://kounter.kerolloz.dev/badge/kerolloz.kounter?label=PageView)
 
 # OliveLinux
 こちらはOlive LinuxというLinux(PCのOSのひとつ）のディストリビューションです。
