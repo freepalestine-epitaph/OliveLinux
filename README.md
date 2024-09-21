@@ -17,6 +17,7 @@
 
 1.Releasesからisoイメージファイルをダウンロードします。
 [![Usage01](img/Usage01.jpg)](https://github.com/freepalestine-epitaph/OliveLinux/releases)
+[![Usage02](img/Usage02.jpg)](https://github.com/freepalestine-epitaph/OliveLinux/releases)
 
 2.isoイメージファイルをDVD-RやUSBメモリに焼きます。
 
