@@ -4,33 +4,31 @@
 [<img src="https://img.shields.io/github/downloads/freepalestine-epitaph/OliveLinux/total?logo=github&amp;logoColor=white&amp;style=flat-square">](https://github.com/freepalestine-epitaph/OliveLinux/releases)
 ![badge](https://kounter.kerolloz.dev/badge/kerolloz.kounter?label=PageView)
 
-# OliveLinux
-こちらはOlive LinuxというLinux(PCのOSのひとつ）のディストリビューションです。
+[Usage](#Usage)・[Installation](#Installation)・[Requirement](#Requirement)・[Note](#Note)・[Contacts](#Contacts)
+
+## OliveLinux
+こちらはOliveLinuxというLinux(PCのOSのひとつ）のディストリビューションです。
 
 パレスチナ連帯運動の一つとしてGNU/Debianベースで作成してみました。
 
-### Table of Contents
-
-[Usage](#Usage)・[Installation](#Installation)・[Requirement](#Requirement)・[Note](#Note)・[Contacts](#Contacts)
-
-#### <a name="Usage">Usage</a>
-
-1.Releasesからisoイメージファイルをダウンロードします。
+### <a name="Usage">Usage</a>
+1.画面右上にある「Releases」のリンクを押す
 [![Usage01](img/Usage01.jpg)](https://github.com/freepalestine-epitaph/OliveLinux/releases)
+2.最新バージョン(一番上に表示されているVer.)の「live-image-amd64.hybrid.iso 」のリンクを押す
 [![Usage02](img/Usage02.jpg)](https://github.com/freepalestine-epitaph/OliveLinux/releases)
 
-2.isoイメージファイルをDVD-RやUSBメモリに焼きます。
+3.ダウンロードしたisoイメージファイルをbalenaEtcher等のツールを使ってDVD-RやUSBメモリに焼く
 
-3.PCに作成したDVD-R（またはUSBメモリ）を接続し起動します。
+4.作成したDVD-R（またはUSBメモリ）をPCに接続した状態でPCを起動させる
 
 
-#### <a name="Installation">Installation</a>
+### <a name="Installation">Installation</a>
 
 PCにインストールする場合は、左下のアイコンをクリックしてください。
 
 ダイアログが現れるので「live」と入力して画面の指示に従ってください。
 
-#### <a name="Requirement">Requirement</a>
+### <a name="Requirement">Requirement</a>
 
 * CPU:64bit(amd64)
 * RAM:256-512MB
@@ -38,12 +36,12 @@ PCにインストールする場合は、左下のアイコンをクリックし
 
 詳細は[こちら](https://www.debian.org/releases/stable/amd64/release-notes/ch-whats-new.en.html#idm120)を参照ください。
 
-#### <a name="Note">Note</a>
+### <a name="Note">Note</a>
 
 中身は普通のDebianなのでLive版で軽く触ってみて気に入ったらインストールして使っていただければ幸いです。
 
 
-#### <a name="Contacts">Contacts</a>
+### <a name="Contacts">Contacts</a>
 
 問い合わせ、ご意見、要望等はこちらまでお願いいたします。
 アイコンなどのコンテンツ作成協力者募集中です。
