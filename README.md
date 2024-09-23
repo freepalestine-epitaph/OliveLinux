@@ -4,16 +4,19 @@
 [<img src="https://img.shields.io/github/downloads/freepalestine-epitaph/OliveLinux/total?logo=github&amp;logoColor=white&amp;style=flat-square">](https://github.com/freepalestine-epitaph/OliveLinux/releases)
 ![badge](https://kounter.kerolloz.dev/badge/kerolloz.kounter?label=PageView)
 
-[Usage](#Usage)・[Installation](#Installation)・[Requirement](#Requirement)・[Note](#Note)・[Contacts](#Contacts)
+[Usage](#Usage)・[Installation](#Installation)・[Requirement](#Requirement)・[Contacts](#Contacts)
 
 ## OliveLinux
 こちらはOliveLinuxというLinux(PCのOSのひとつ）のディストリビューションです。
 
 パレスチナ連帯運動の一つとしてGNU/Debianベースで作成してみました。
 
+中身は普通のDebianなのでLive版で軽く触ってみて気に入ったらインストールして使っていただければ幸いです。
+
 ### <a name="Usage">Usage</a>
-1.画面右上にある「Releases」のリンクを押す
+1.画面右側にある「Releases」のリンクを押す
 [![Usage01](img/Usage01.jpg)](https://github.com/freepalestine-epitaph/OliveLinux/releases)
+
 2.最新バージョン(一番上に表示されているVer.)の「live-image-amd64.hybrid.iso 」のリンクを押す
 [![Usage02](img/Usage02.jpg)](https://github.com/freepalestine-epitaph/OliveLinux/releases)
 
@@ -25,8 +28,9 @@
 ### <a name="Installation">Installation</a>
 
 PCにインストールする場合は、左下のアイコンをクリックしてください。
-
+（画像作成中）
 ダイアログが現れるので「live」と入力して画面の指示に従ってください。
+（画像作成中）
 
 ### <a name="Requirement">Requirement</a>
 
@@ -35,11 +39,6 @@ PCにインストールする場合は、左下のアイコンをクリックし
 * HDD:4GB
 
 詳細は[こちら](https://www.debian.org/releases/stable/amd64/release-notes/ch-whats-new.en.html#idm120)を参照ください。
-
-### <a name="Note">Note</a>
-
-中身は普通のDebianなのでLive版で軽く触ってみて気に入ったらインストールして使っていただければ幸いです。
-
 
 ### <a name="Contacts">Contacts</a>
 
