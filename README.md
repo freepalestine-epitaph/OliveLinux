@@ -17,7 +17,7 @@
 1.画面右側にある「Releases」のリンクを押す
 [![Usage01](img/Usage01.jpg)](https://github.com/freepalestine-epitaph/OliveLinux/releases)
 
-2.最新バージョン(一番上に表示されているVer.)の「live-image-amd64.hybrid.iso 」のリンクを押す
+2.緑色字でLatestと表記されている最新バージョンのAssets欄の「live-image-amd64.hybrid.iso 」のリンクを押すと自動でダウンロードされる
 [![Usage02](img/Usage02.jpg)](https://github.com/freepalestine-epitaph/OliveLinux/releases)
 
 3.ダウンロードしたisoイメージファイルをbalenaEtcher等のツールを使ってDVD-RやUSBメモリに焼く
