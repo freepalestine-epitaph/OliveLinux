@@ -18,7 +18,7 @@
 1.画面右側にある「Releases」のリンクを押す
 [![Usage01](img/Usage01.jpg)](https://github.com/freepalestine-epitaph/OliveLinux/releases)
 
-2.緑色字でLatestと表記されている最新バージョンのAssets欄の「live-image-amd64.hybrid.iso 」のリンクを押すと自動でダウンロードされる
+2.緑色字でLatestと表記されている最新バージョンのAssets欄にある「live-image-amd64.hybrid.iso 」のリンクを押すと自動でダウンロードされる
 [![Usage02](img/Usage02.jpg)](https://github.com/freepalestine-epitaph/OliveLinux/releases)
 
 3.ダウンロードしたisoイメージファイルをbalenaEtcher等のツールを使ってDVD-RやUSBメモリに焼く
@@ -28,9 +28,10 @@
 
 ### <a name="Installation">Installation</a>
 
-PCにインストールする場合は、左下のアイコンをクリックしてください。
+1.PCにインストールする場合は、左下のアイコンをクリックしてください。
 （画像作成中）
-ダイアログが現れるので「live」と入力して画面の指示に従ってください。
+
+2.ダイアログが現れるので「live」と入力して画面の指示に従ってください。
 （画像作成中）
 
 ### <a name="Requirement">Requirement</a>
@@ -52,9 +53,7 @@ freepalestine@epitaph.co.jp
 https://x.com/olive_epitaph
 
 拡散していただける場合はこちらからどうぞ
-
 ↓
-
 <a href="https://twitter.com/intent/tweet?text=%20Try%20OliveLinux!%0A%23FreePalestine%0Ahttps%3A//github.com/freepalestine-epitaph/OliveLinux" rel="nofollow"><img src="https://camo.githubusercontent.com/abcfff2c8e77b48fdd30ae402cbad68968e38a5c2913c3f8132ac7bc4df979e0/68747470733a2f2f696d672e736869656c64732e696f2f747769747465722f75726c3f6c6162656c3d54776974746572266c6f676f3d54776974746572267374796c653d736f6369616c2675726c3d68747470732533412532462532466769746875622e636f6d2532466172656774656368253246617265672d73646b" alt="Shared on Twitter" data-canonical-src="https://img.shields.io/twitter/url?label=Twitter&amp;logo=Twitter&amp;style=social&amp;url=https%3A%2F%2Fgithub.com%2Faregtech%2Fareg-sdk" style="max-width: 100%;"></a>
 <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//github.com/freepalestine-epitaph/OliveLinux" rel="nofollow"><img src="https://camo.githubusercontent.com/e12488d7360e676540f9afd5db87cd486a5a62fc0348565d77014e2894c31fae/68747470733a2f2f696d672e736869656c64732e696f2f747769747465722f75726c3f6c6162656c3d46616365626f6f6b266c6f676f3d46616365626f6f6b267374796c653d736f6369616c2675726c3d68747470732533412532462532466769746875622e636f6d2532466172656774656368253246617265672d73646b" alt="Share on Facebook" data-canonical-src="https://img.shields.io/twitter/url?label=Facebook&amp;logo=Facebook&amp;style=social&amp;url=https%3A%2F%2Fgithub.com%2Ffreepalestine-epitaph%2FOliveLinux" style="max-width: 100%;"></a>
 <a href="https://wa.me/?text=Try%20OliveLinux!%20https%3A%2F%2Fgithub.com%2Ffreepalestine-epitaph%2FOliveLinux" rel="nofollow"><img src="https://camo.githubusercontent.com/fc0bfc31635b55854b75bfb8b0b5ebeb443fbeaf5f7cd150fd8768a5ccdbe5ff/68747470733a2f2f696d672e736869656c64732e696f2f747769747465722f75726c3f6c6162656c3d5768617473617070266c6f676f3d5768617473617070267374796c653d736f6369616c2675726c3d68747470732533412532462532466769746875622e636f6d2532466172656774656368253246617265672d73646b" alt="Share on Whatsapp" data-canonical-src="https://img.shields.io/twitter/url?label=Whatsapp&amp;logo=Whatsapp&amp;style=social&amp;url=https%3A%2F%2Fgithub.com%2Ffreepalestine-epitaph%2FOliveLinux" style="max-width: 100%;"></a>
