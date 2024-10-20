@@ -29,6 +29,7 @@
 ### <a name="Installation">Installation</a>
 1.PCにインストールする場合は、左下のアイコンをクリックしてください。
 ![Install01](img/Install01.png)
+
 2.ダイアログが現れるので「live」と入力して画面の指示に従ってください。
 ![Install02](img/Install02.png)
 ![Install03](img/Install03.png)
