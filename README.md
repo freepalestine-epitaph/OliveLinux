@@ -42,7 +42,7 @@
 5.Keyboardを選択して「Next」をクリックする
 ![Install05](img/Install05.png)
 
-6.インストール先を選択して「Next」をクリックする
+6.インストール先を選択して「Next」をクリックする<br>
 （「Erase disk」を選択すると元々のOSを消してしまうので復元できる人のみ推奨）
 ![Install06](img/Install06.png)
 
