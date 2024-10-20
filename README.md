@@ -27,14 +27,24 @@
 
 
 ### <a name="Installation">Installation</a>
-1.PCにインストールする場合は、左下のアイコンをクリックしてください。
+1.左下の赤いアイコン（Install Debian）をクリックする
 ![Install01](img/Install01.png)
 
-2.ダイアログが現れるので「live」と入力して画面の指示に従ってください。
+2.ダイアログが現れるので「live」と入力して右下の「Authenticate」をクリックする
 ![Install02](img/Install02.png)
+
+3.言語を選択して「Next」をクリックする
 ![Install03](img/Install03.png)
+
+4.Locationを選択して「Next」をクリックする
 ![Install04](img/Install04.png)
+
+5.Keyboardを選択して「Next」をクリックする
 ![Install05](img/Install05.png)
+
+6.インストール先を選択して「Next」をクリックする
+
+（「Erase disk」を選択すると元々のOSを消してしまうので復元できる人のみ推奨）
 ![Install06](img/Install06.png)
 
 ### <a name="Requirement">Requirement</a>
