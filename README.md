@@ -8,11 +8,9 @@
 [Usage](#Usage)・[Installation](#Installation)・[Requirement](#Requirement)・[Contacts](#Contacts)
 
 
-こちらはOliveLinuxというLinux(PCのOSのひとつ）のディストリビューションです。
-
-パレスチナ連帯運動の一つとしてGNU/Debianベースで作成してみました。
-
-中身は普通のDebianなのでLive版で軽く触ってみて気に入ったらインストールして使っていただければ幸いです。
+こちらはOliveLinuxというLinux(PCのOSのひとつ）のディストリビューションです。<br>
+パレスチナ連帯運動の一つとしてGNU/Debianベースで作成してみました。<br>
+中身は普通のDebianなのでLive版で軽く触ってみて気に入ったらインストールして使っていただければ幸いです。<br>
 
 ### <a name="Usage">Usage</a>
 1.画面右側にある「Releases」のリンクを押す
