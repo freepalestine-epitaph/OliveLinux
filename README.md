@@ -23,7 +23,7 @@
 
 3.balenaEtcher等のブートUSB作成ツールを使ってダウンロードしたisoイメージファイルをブート用USBメモリやDVD-R等を作成する
 
-4.作成したDVD-R（またはUSBメモリ）をPCに接続した状態でPCを起動させる
+4.作成したUSBメモリ（またはDVD-R）をPCに接続した状態でPCを起動させる
 
 
 ### <a name="Installation">Installation</a>
