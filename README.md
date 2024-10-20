@@ -21,13 +21,18 @@
 2.緑色字でLatestと表記されている最新バージョンのAssets欄にある「live-image-amd64.hybrid.iso 」のリンクを押すと自動でダウンロードされる
 [![Usage02](img/Usage02.jpg)](https://github.com/freepalestine-epitaph/OliveLinux/releases)
 
-3.ダウンロードしたisoイメージファイルをbalenaEtcher等のツールを使ってDVD-RやUSBメモリに焼く
+3.balenaEtcher等のブートUSB作成ツールを使ってダウンロードしたisoイメージファイルをブート用USBメモリやDVD-R等を作成する
 
 4.作成したDVD-R（またはUSBメモリ）をPCに接続した状態でPCを起動させる
 
 
 ### <a name="Installation">Installation</a>
-
+![Install01](img/Install01.png)
+![Install02](img/Install02.png)
+![Install03](img/Install03.png)
+![Install04](img/Install04.png)
+![Install05](img/Install05.png)
+![Install06](img/Install06.png)
 1.PCにインストールする場合は、左下のアイコンをクリックしてください。
 （画像作成中）
 
