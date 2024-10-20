@@ -27,17 +27,14 @@
 
 
 ### <a name="Installation">Installation</a>
+1.PCにインストールする場合は、左下のアイコンをクリックしてください。
 ![Install01](img/Install01.png)
+2.ダイアログが現れるので「live」と入力して画面の指示に従ってください。
 ![Install02](img/Install02.png)
 ![Install03](img/Install03.png)
 ![Install04](img/Install04.png)
 ![Install05](img/Install05.png)
 ![Install06](img/Install06.png)
-1.PCにインストールする場合は、左下のアイコンをクリックしてください。
-（画像作成中）
-
-2.ダイアログが現れるので「live」と入力して画面の指示に従ってください。
-（画像作成中）
 
 ### <a name="Requirement">Requirement</a>
 
