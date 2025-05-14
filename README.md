@@ -1,3 +1,4 @@
+![OpenHardConference](img/OpenHardConferenceFryer.jpg)
 [![Olive Linx](img/Logo01.png)](https://github.com/freepalestine-epitaph/OliveLinux)
 [![Olive Linx](img/palestine-flag-banner.png)](https://github.com/freepalestine-epitaph/OliveLinux)
 
